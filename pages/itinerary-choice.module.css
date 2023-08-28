@@ -350,16 +350,18 @@
   overflow: hidden;
   max-height: 100%;
 }
-.tickBox {
-  width: 18px;
-  height: 18px;
-}
 .tickBox,
 .tickBox1,
 .tickBox2 {
   position: absolute;
   top: 603px;
   left: 47px;
+  width: 18px;
+  height: 18px;
+}
+.tickBox1,
+.tickBox2 {
+  cursor: pointer;
 }
 .tickBox2 {
   top: 661px;

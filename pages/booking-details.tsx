@@ -10,7 +10,7 @@ const BookingDetails: NextPage = () => {
   }, [router]);
 
   const onVectorContainerClick = useCallback(() => {
-    router.push("/hotel-page");
+    router.push("/");
   }, [router]);
 
   const onButtonContainer1Click = useCallback(() => {

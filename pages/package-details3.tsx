@@ -19,7 +19,7 @@ const PackageDetails3: NextPage = () => {
       <div className={styles.packageDetailsChild} />
       <b className={styles.sendParcel}>Send Parcel</b>
       <div className={styles.back}>
-        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
         <div className={styles.backChild} />
       </div>
       <div className={styles.packageDetailsItem} />

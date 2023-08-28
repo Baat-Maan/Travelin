@@ -1,17 +1,20 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import {
-  FormControlLabel as MuiFormControlLabel,
-  Checkbox as MuiCheckbox,
-} from "@mui/material";
-import { Checkbox } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import styles from "./itinerary-choice.module.css";
 const ItineraryChoice: NextPage = () => {
   const router = useRouter();
 
   const onVectorContainerClick = useCallback(() => {
-    router.push("/hotel-page");
+    router.push("/");
+  }, [router]);
+
+  const onTickBoxClick = useCallback(() => {
+    router.push("/itinerary-family-trip");
+  }, [router]);
+
+  const onTickBox1Click = useCallback(() => {
+    router.push("/itinerary-work-trip");
   }, [router]);
 
   return (
@@ -109,16 +112,15 @@ const ItineraryChoice: NextPage = () => {
         <div className={styles.tickBoxChild} />
         <img className={styles.tickBoxItem} alt="" src="/vector-11.svg" />
       </div>
-      <Checkbox
+      <input
         className={styles.tickBox1}
-        defaultChecked
-        colorScheme="teal"
-        spacing="0.5rem"
+        type="checkbox"
+        onClick={onTickBoxClick}
       />
-      <MuiFormControlLabel
+      <input
         className={styles.tickBox2}
-        label=""
-        control={<MuiCheckbox color="warning" defaultChecked size="medium" />}
+        type="checkbox"
+        onClick={onTickBox1Click}
       />
       <div className={styles.groupParent}>
         <div className={styles.groupWrapper}>

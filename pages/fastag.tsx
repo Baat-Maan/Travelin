@@ -6,7 +6,7 @@ const Fastag: NextPage = () => {
   const router = useRouter();
 
   const onButtonContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/vehicle-details");
   }, [router]);
 
   return (

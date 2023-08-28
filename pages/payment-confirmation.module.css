@@ -408,13 +408,16 @@
 .expires052024 {
   top: 695px;
 }
-.image13Icon,
 .tickBox {
+  cursor: pointer;
   position: absolute;
   top: 708px;
   left: 32px;
+  width: 18px;
+  height: 18px;
 }
 .image13Icon {
+  position: absolute;
   top: 639px;
   left: 269px;
   width: 89px;

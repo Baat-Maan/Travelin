@@ -10,7 +10,7 @@ const SearchLocationAndDate: NextPage = () => {
   }, [router]);
 
   const onButtonContainerClick = useCallback(() => {
-    router.push("/hotel-page");
+    router.push("/");
   }, [router]);
 
   const onGroupContainer11Click = useCallback(() => {

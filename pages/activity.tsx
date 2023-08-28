@@ -40,7 +40,7 @@ const Activity: NextPage = () => {
         <b className={styles.viewDetails1}>View details</b>
       </div>
       <div className={styles.back} onClick={onBackContainerClick}>
-        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
         <div className={styles.backChild} />
       </div>
       <div className={styles.activityInner} />

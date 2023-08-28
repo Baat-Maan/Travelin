@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import { FormControlLabel, Checkbox } from "@mui/material";
 import { useRouter } from "next/router";
 import styles from "./payment-confirmation.module.css";
 const PaymentConfirmation: NextPage = () => {
@@ -87,12 +86,7 @@ const PaymentConfirmation: NextPage = () => {
       <div className={styles.div}>**** 0498</div>
       <div className={styles.firstLastName}>First Last Name</div>
       <div className={styles.expires052024}>Expires 05/2024</div>
-      <FormControlLabel
-        className={styles.tickBox}
-        label=""
-        labelPlacement="end"
-        control={<Checkbox color="warning" defaultChecked size="medium" />}
-      />
+      <input className={styles.tickBox} type="checkbox" />
       <img className={styles.image13Icon} alt="" src="/image-13@2x.png" />
       <input
         className={styles.paymentConfirmationInner}
