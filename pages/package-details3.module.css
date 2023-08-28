@@ -160,6 +160,7 @@
   top: 527px;
 }
 .contentsOfPackage,
+.declarePackageAs,
 .weight {
   position: absolute;
   top: 392px;
@@ -169,32 +170,16 @@
   width: 194px;
   height: 35px;
 }
-.contentsOfPackage {
+.contentsOfPackage,
+.declarePackageAs {
   top: 492px;
-}
-.enterWeightRange {
-  top: 441px;
-  left: 33px;
-  color: var(--color-gray-200);
-}
-.declarePackageAs,
-.enterContents,
-.enterWeightRange {
-  position: absolute;
-  font-size: var(--font-size-sm);
-  display: inline-block;
-  width: 355px;
-  height: 17px;
-}
-.enterContents {
-  top: 541px;
-  left: 33px;
-  color: var(--color-gray-200);
 }
 .declarePackageAs {
   top: 611px;
   left: 48px;
-  font-weight: 600;
+  font-size: var(--font-size-sm);
+  width: 355px;
+  height: 17px;
 }
 .iconLeft {
   position: relative;

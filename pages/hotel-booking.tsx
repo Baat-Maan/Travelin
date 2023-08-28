@@ -27,9 +27,9 @@ const HotelBooking: NextPage = () => {
         <img className={styles.iconLeft} alt="" src="/icon-right10.svg" />
       </div>
       <div className={styles.button1}>
-        <img className={styles.iconLeft} alt="" src="/icon-left11.svg" />
+        <img className={styles.iconLeft} alt="" src="/icon-left111.svg" />
         <div className={styles.label}>BOOK NOW</div>
-        <img className={styles.iconLeft} alt="" src="/icon-right11.svg" />
+        <img className={styles.iconLeft} alt="" src="/icon-right111.svg" />
       </div>
       <div className={styles.discountBanner}>
         <div className={styles.getYourFamily}>

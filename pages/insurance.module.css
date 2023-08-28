@@ -144,9 +144,12 @@
   height: 42px;
 }
 .tickBox {
+  cursor: pointer;
   position: absolute;
   top: 489px;
   left: 16px;
+  width: 18px;
+  height: 18px;
 }
 .paid,
 .rs299,
@@ -180,8 +183,13 @@
 .getUpto5000,
 .tickBox1 {
   position: absolute;
-  top: 415px;
   left: 16px;
+  height: 18px;
+}
+.tickBox1 {
+  cursor: pointer;
+  top: 415px;
+  width: 18px;
 }
 .getUpto500,
 .getUpto5000 {
@@ -190,7 +198,6 @@
   line-height: 18px;
   display: inline-block;
   width: 396px;
-  height: 18px;
 }
 .getUpto5000 {
   top: 517px;

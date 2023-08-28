@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import { FormControlLabel, Checkbox } from "@mui/material";
 import { useRouter } from "next/router";
 import styles from "./itinerary-work-trip.module.css";
 const ItineraryWorkTrip: NextPage = () => {
@@ -84,19 +83,15 @@ const ItineraryWorkTrip: NextPage = () => {
         src="/vector-2.svg"
       />
       <div className={styles.getInsuredAt}>Get Insured at once</div>
-      <FormControlLabel
-        className={styles.tickBox}
-        label=""
-        control={<Checkbox color="warning" defaultChecked size="medium" />}
-      />
+      <input className={styles.tickBox} type="checkbox" />
       <div className={styles.standard}>Standard</div>
       <div className={styles.paid}>Paid</div>
       <div className={styles.rs99}> Rs 99/-</div>
       <div className={styles.rs299}>Rs 299 /-</div>
-      <FormControlLabel
+      <input
         className={styles.tickBox1}
-        label=""
-        control={<Checkbox color="warning" defaultChecked size="medium" />}
+        type="checkbox"
+        defaultChecked={true}
       />
       <div
         className={styles.coverYourAnd}

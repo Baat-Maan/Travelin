@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+SemiBold:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400&display=swap");
@@ -22,11 +22,11 @@ body {
 :root {
   /* fonts */
   --font-be-vietnam-pro: "Be Vietnam Pro";
-  --components-button-default: Inter;
-  --font-abhaya-libre: "Abhaya Libre";
   --font-ibm-plex-sans: "IBM Plex Sans";
-  --font-open-sans: "Open Sans";
   --components-large: Poppins;
+  --font-open-sans: "Open Sans";
+  --font-abhaya-libre: "Abhaya Libre";
+  --components-button-default: Inter;
   --font-helvetica: Helvetica;
   --font-abril-fatface: "Abril Fatface";
   --font-italiana: Italiana;
@@ -38,24 +38,24 @@ body {
   --font-sf-pro-text: "SF Pro Text";
 
   /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --components-large-size: 16px;
   --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
+  --font-size-smi: 13px;
+  --font-size-5xl: 24px;
+  --font-size-4xs: 9px;
+  --font-size-7xs: 6px;
+  --font-size-3xs: 10px;
   --font-size-sm-1: 13.1px;
   --font-size-base-1: 16.1px;
   --font-size-smi-1: 12.1px;
   --font-size-3xs-1: 9.1px;
-  --font-size-7xs: 6px;
   --font-size-xs-1: 11.1px;
   --font-size-mini-1: 14.1px;
-  --font-size-xs: 12px;
-  --components-large-size: 16px;
-  --font-size-sm: 14px;
-  --font-size-3xl: 22px;
-  --font-size-smi: 13px;
-  --font-size-4xs: 9px;
-  --font-size-3xs: 10px;
-  --font-size-lg: 18px;
-  --font-size-mini: 15px;
-  --font-size-5xl: 24px;
   --font-size-mid: 17px;
   --font-size-2xs: 11px;
   --font-size-11xl: 30px;
@@ -63,11 +63,6 @@ body {
   /* Colors */
   --ink-06: #fff;
   --color-black: #000;
-  --color-dimgray-100: #747268;
-  --color-dimgray-200: #67686c;
-  --color-dimgray-300: #6a6464;
-  --color-dimgray-400: #5d5b53;
-  --color-dimgray-500: #4c4c4c;
   --color-gray-100: #fcfcff;
   --color-gray-200: #949494;
   --color-gray-300: #212121;
@@ -78,25 +73,30 @@ body {
   --color-gray-700: rgba(0, 0, 0, 0.54);
   --color-gray-800: rgba(255, 255, 255, 0);
   --color-mediumblue: #0a4bff;
-  --color-mistyrose: #ecdddc;
+  --color-gainsboro-100: #e0e0e0;
+  --color-gainsboro-200: #dadada;
+  --color-gainsboro-300: #d9d9d9;
+  --color-gainsboro-400: #d8d8d8;
   --color-darkslategray-100: #444;
   --color-darkslategray-200: #3b414b;
   --color-darkslategray-300: #3a3a3a;
   --color-darkslategray-400: #333;
   --color-darkslategray-500: #2f2f2f;
+  --color-mistyrose: #ecdddc;
+  --color-silver-100: #c4c4c4;
+  --color-dimgray-100: #747268;
+  --color-dimgray-200: #67686c;
+  --color-dimgray-300: #6a6464;
+  --color-dimgray-400: #5d5b53;
+  --color-dimgray-500: #4c4c4c;
   --color-darkgray-100: #979797;
   --color-darkgray-200: rgba(166, 170, 180, 0.6);
-  --color-silver-100: #c4c4c4;
   --color-crimson-100: #ea3e3e;
   --color-crimson-200: #ed0541;
   --color-whitesmoke-100: #f5f5f5;
   --global-primary: #0dcdaa;
   --color-red-100: #d60b0b;
   --color-red-200: #d80000;
-  --color-gainsboro-100: #e0e0e0;
-  --color-gainsboro-200: #dadada;
-  --color-gainsboro-300: #d9d9d9;
-  --color-gainsboro-400: #d8d8d8;
   --color-slategray: #757f8c;
   --color-blueviolet-100: #613eea;
   --color-blueviolet-200: rgba(97, 62, 234, 0.4);
@@ -105,34 +105,34 @@ body {
   --color-midnightblue: #2c1f61;
 
   /* Gaps */
-  --gap-2xs-1: 10.1px;
   --gap-3xs: 10px;
+  --gap-2xs-1: 10.1px;
   --gap-xs: 12px;
   --gap-6xs: 7px;
 
   /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
   --padding-3xs: 10px;
   --padding-4xs-1: 8.1px;
   --padding-base-1: 16.1px;
-  --padding-5xs: 8px;
-  --padding-base: 16px;
   --padding-6xs: 7px;
   --padding-sm: 14px;
   --padding-lg: 18px;
   --padding-112xl: 131px;
 
   /* border radiuses */
-  --br-10xs: 3px;
+  --br-xl: 20px;
+  --br-3xl: 22px;
   --br-7xs: 6px;
   --br-3xs: 10px;
-  --br-xl: 20px;
+  --br-10xs: 3px;
   --br-31xl: 50px;
-  --br-81xl: 100px;
   --br-116xl: 135px;
   --br-26xl: 45px;
+  --br-81xl: 100px;
   --br-8xs: 5px;
   --br-21xl: 40px;
-  --br-3xl: 22px;
   --br-481xl: 500px;
 
   /* Effects */

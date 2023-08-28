@@ -305,17 +305,13 @@
   justify-content: center;
   cursor: pointer;
 }
-.itineraryChoiceInner {
+.itineraryChoiceInner,
+.rectangleDiv {
   position: absolute;
   top: -6px;
   left: 0;
   width: 393px;
   height: 788px;
-}
-.rectangleDiv,
-.tickBoxChild {
-  position: absolute;
-  box-sizing: border-box;
 }
 .rectangleDiv {
   top: 437px;
@@ -324,47 +320,9 @@
   background-color: var(--ink-06);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
   width: 362px;
   height: 301px;
-}
-.tickBoxChild {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-10xs);
-  background-color: var(--color-mistyrose);
-  border: 0.4px solid var(--color-mistyrose);
-}
-.tickBoxItem {
-  position: absolute;
-  height: 49.14%;
-  width: 49.45%;
-  top: 26.67%;
-  right: 26.67%;
-  bottom: 24.2%;
-  left: 23.89%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.tickBox,
-.tickBox1,
-.tickBox2 {
-  position: absolute;
-  top: 603px;
-  left: 47px;
-  width: 18px;
-  height: 18px;
-}
-.tickBox1,
-.tickBox2 {
-  cursor: pointer;
-}
-.tickBox2 {
-  top: 661px;
 }
 .groupChild {
   border-radius: var(--br-xl);
@@ -387,20 +345,24 @@
   height: 57px;
   z-index: 0;
 }
+.familyTrip {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
 .familyTrip,
 .workTrip,
 .youreGoingFor {
-  position: relative;
   letter-spacing: 1px;
   line-height: 17px;
   display: inline-block;
   width: 252px;
   height: 23px;
   flex-shrink: 0;
-  z-index: 1;
 }
-.workTrip,
-.youreGoingFor {
+.workTrip {
+  position: relative;
+  cursor: pointer;
   z-index: 2;
 }
 .youreGoingFor {

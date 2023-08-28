@@ -582,6 +582,7 @@
   width: 100%;
   height: 831px;
   overflow-y: auto;
+  cursor: pointer;
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--color-black);

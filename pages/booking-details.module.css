@@ -181,9 +181,9 @@
 .button {
   position: absolute;
   height: 5.88%;
-  top: 51.56%;
-  bottom: 42.56%;
-  left: calc(50% - 176.5px);
+  top: 61.47%;
+  bottom: 32.65%;
+  left: calc(50% - 8.5px);
   border-radius: var(--br-10xs);
   background-color: var(--color-mistyrose);
   width: 196px;

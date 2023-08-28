@@ -13,6 +13,10 @@ const PaymentConfirmation: NextPage = () => {
     router.push("/booking-details");
   }, [router]);
 
+  const onRectangle1Click = useCallback(() => {
+    router.push("/payment-done-hotel");
+  }, [router]);
+
   return (
     <div className={styles.paymentConfirmation}>
       <img
@@ -81,12 +85,16 @@ const PaymentConfirmation: NextPage = () => {
         className={styles.paymentConfirmationItem}
         alt=""
         src="/rectangle-52.svg"
+        onClick={onRectangle1Click}
       />
       <div className={styles.syndicateBankDebit}>Syndicate Bank Debit Card</div>
       <div className={styles.div}>**** 0498</div>
       <div className={styles.firstLastName}>First Last Name</div>
       <div className={styles.expires052024}>Expires 05/2024</div>
-      <input className={styles.tickBox} type="checkbox" />
+      <button className={styles.tickBox}>
+        <div className={styles.tickBoxChild} />
+        <img className={styles.tickBoxItem} alt="" src="/vector-11.svg" />
+      </button>
       <img className={styles.image13Icon} alt="" src="/image-13@2x.png" />
       <input
         className={styles.paymentConfirmationInner}

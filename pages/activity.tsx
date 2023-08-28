@@ -10,7 +10,7 @@ const Activity: NextPage = () => {
   }, [router]);
 
   const onBackContainerClick = useCallback(() => {
-    router.push("/send-parcel-home");
+    router.push("/");
   }, [router]);
 
   return (

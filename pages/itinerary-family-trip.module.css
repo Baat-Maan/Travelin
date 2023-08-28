@@ -359,7 +359,10 @@
   height: 25px;
 }
 .tickBox {
+  cursor: pointer;
   top: 1101px;
+  width: 16px;
+  height: 18px;
 }
 .paid,
 .rs299,
@@ -393,9 +396,12 @@
   left: 274px;
 }
 .tickBox1 {
+  cursor: pointer;
   position: absolute;
   top: 1028px;
   left: 43px;
+  width: 16px;
+  height: 18px;
 }
 .coverHealthTravel,
 .coverYourAnd {

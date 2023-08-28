@@ -6,14 +6,14 @@ const ItineraryChoice: NextPage = () => {
   const router = useRouter();
 
   const onVectorContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/hotel-page");
   }, [router]);
 
-  const onTickBoxClick = useCallback(() => {
+  const onFamilyTripTextClick = useCallback(() => {
     router.push("/itinerary-family-trip");
   }, [router]);
 
-  const onTickBox1Click = useCallback(() => {
+  const onWorkTripTextClick = useCallback(() => {
     router.push("/itinerary-work-trip");
   }, [router]);
 
@@ -108,20 +108,6 @@ const ItineraryChoice: NextPage = () => {
         src="/rectangle-3.svg"
       />
       <div className={styles.rectangleDiv} />
-      <div className={styles.tickBox}>
-        <div className={styles.tickBoxChild} />
-        <img className={styles.tickBoxItem} alt="" src="/vector-11.svg" />
-      </div>
-      <input
-        className={styles.tickBox1}
-        type="checkbox"
-        onClick={onTickBoxClick}
-      />
-      <input
-        className={styles.tickBox2}
-        type="checkbox"
-        onClick={onTickBox1Click}
-      />
       <div className={styles.groupParent}>
         <div className={styles.groupWrapper}>
           <div className={styles.groupContainer}>
@@ -130,8 +116,12 @@ const ItineraryChoice: NextPage = () => {
             </div>
           </div>
         </div>
-        <b className={styles.familyTrip}>Family Trip</b>
-        <b className={styles.workTrip}>Work Trip</b>
+        <b className={styles.familyTrip} onClick={onFamilyTripTextClick}>
+          Family Trip
+        </b>
+        <b className={styles.workTrip} onClick={onWorkTripTextClick}>
+          Work Trip
+        </b>
         <b className={styles.youreGoingFor}>You’re going for a?</b>
       </div>
     </div>

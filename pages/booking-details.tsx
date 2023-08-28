@@ -10,7 +10,7 @@ const BookingDetails: NextPage = () => {
   }, [router]);
 
   const onVectorContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/hotel-page");
   }, [router]);
 
   const onButtonContainer1Click = useCallback(() => {
@@ -203,9 +203,9 @@ const BookingDetails: NextPage = () => {
       <img className={styles.bookingDetailsItem} alt="" src="/vector-27.svg" />
       <img className={styles.bookingDetailsInner} alt="" src="/vector-27.svg" />
       <div className={styles.button} onClick={onButtonContainerClick}>
-        <img className={styles.iconLeft} alt="" src="/icon-left6.svg" />
+        <img className={styles.iconLeft} alt="" src="/icon-left1.svg" />
         <div className={styles.label}> TAP TO KNOW MORE</div>
-        <img className={styles.iconLeft} alt="" src="/icon-right6.svg" />
+        <img className={styles.iconLeft} alt="" src="/icon-right1.svg" />
       </div>
       <div className={styles.bed1ExtraParent}>
         <div className={styles.bed1Container}>

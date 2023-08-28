@@ -7,7 +7,7 @@ const PackageDetails3: NextPage = () => {
   const router = useRouter();
 
   const onGroupContainer1Click = useCallback(() => {
-    router.push("/send-parcel-home");
+    router.push("/");
   }, [router]);
 
   const onButtonContainerClick = useCallback(() => {
@@ -50,7 +50,6 @@ const PackageDetails3: NextPage = () => {
         color="primary"
         variant="outlined"
         type="text"
-        label="Label"
         placeholder="Enter weight range"
         size="medium"
         margin="none"
@@ -62,7 +61,6 @@ const PackageDetails3: NextPage = () => {
         color="primary"
         variant="outlined"
         type="text"
-        label="Label"
         placeholder="Enter Contents"
         size="medium"
         margin="none"
@@ -70,8 +68,6 @@ const PackageDetails3: NextPage = () => {
       />
       <div className={styles.weight}>Weight</div>
       <div className={styles.contentsOfPackage}>Contents of package</div>
-      <div className={styles.enterWeightRange}>Enter weight range</div>
-      <div className={styles.enterContents}>Enter contents</div>
       <div className={styles.declarePackageAs}>Declare package as fragile</div>
       <div className={styles.button} onClick={onButtonContainerClick}>
         <img className={styles.iconLeft} alt="" src="/icon-left19.svg" />

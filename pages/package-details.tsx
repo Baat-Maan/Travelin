@@ -33,8 +33,6 @@ const PackageDetails: NextPage = () => {
         color="primary"
         variant="outlined"
         type="text"
-        label="Label"
-        placeholder="Placeholder"
         size="medium"
         margin="none"
         required
@@ -45,8 +43,6 @@ const PackageDetails: NextPage = () => {
         color="primary"
         variant="outlined"
         type="text"
-        label="Label"
-        placeholder="Placeholder"
         size="medium"
         margin="none"
         required
@@ -59,8 +55,6 @@ const PackageDetails: NextPage = () => {
         color="primary"
         variant="outlined"
         type="text"
-        label="Label"
-        placeholder="Placeholder"
         size="medium"
         margin="none"
       />

@@ -6,15 +6,15 @@ const DropOff: NextPage = () => {
   const router = useRouter();
 
   const onGroupButtonClick = useCallback(() => {
-    router.push("/send-parcel-home");
+    router.push("/");
   }, [router]);
 
   const onSendParcelButtonClick = useCallback(() => {
-    router.push("/send-parcel-home");
+    router.push("/");
   }, [router]);
 
   const onEllipse2Click = useCallback(() => {
-    router.push("/send-parcel-home");
+    router.push("/");
   }, [router]);
 
   return (

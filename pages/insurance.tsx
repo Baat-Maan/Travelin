@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import { FormControlLabel, Checkbox } from "@mui/material";
 import { useRouter } from "next/router";
 import styles from "./insurance.module.css";
 const Insurance: NextPage = () => {
@@ -39,19 +38,15 @@ const Insurance: NextPage = () => {
         <b className={styles.next}>Back</b>
       </div>
       <div className={styles.packageInsurance}>Package Insurance</div>
-      <FormControlLabel
-        className={styles.tickBox}
-        label=""
-        control={<Checkbox color="primary" defaultChecked size="medium" />}
-      />
+      <input className={styles.tickBox} type="checkbox" />
       <div className={styles.standard}>Standard</div>
       <div className={styles.paid}>Paid</div>
       <div className={styles.rs99}> Rs 99/-</div>
       <div className={styles.rs299}>Rs 299 /-</div>
-      <FormControlLabel
+      <input
         className={styles.tickBox1}
-        label=""
-        control={<Checkbox color="primary" defaultChecked size="medium" />}
+        type="checkbox"
+        defaultChecked={true}
       />
       <div className={styles.getUpto500}>
         Get upto 500/- Rs reimbursed for damage or package loss/theft.

@@ -5,12 +5,16 @@ import styles from "./payment-done-hotel.module.css";
 const PaymentDoneHotel: NextPage = () => {
   const router = useRouter();
 
+  const onPaymentDoneHotelClick = useCallback(() => {
+    router.push("/bookings");
+  }, [router]);
+
   const onVectorContainerClick = useCallback(() => {
     router.push("/booking-details");
   }, [router]);
 
   return (
-    <div className={styles.paymentDoneHotel}>
+    <div className={styles.paymentDoneHotel} onClick={onPaymentDoneHotelClick}>
       <img
         className={styles.rwcriFacadeByNight12WideIcon}
         alt=""
