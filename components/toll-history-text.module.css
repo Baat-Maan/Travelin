@@ -1,0 +1,11 @@
+.tollHistory {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--components-button-default);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  width: 77.59px;
+  height: 15.75px;
+}

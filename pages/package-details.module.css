@@ -1,0 +1,185 @@
+.packageDetailsChild {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: var(--ink-06);
+  width: 428px;
+  height: 91px;
+}
+.sendParcel {
+  position: absolute;
+  top: 79px;
+  left: 56px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 149px;
+  height: 22px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.backChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.back {
+  position: absolute;
+  top: 80px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+}
+.packageDetailsItem {
+  position: absolute;
+  top: 136px;
+  left: -1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mistyrose);
+  border: 2px solid var(--ink-06);
+  box-sizing: border-box;
+  width: 396px;
+  height: 156px;
+}
+.package,
+.pleaseEnsureThat {
+  position: absolute;
+  top: 197px;
+  left: 56px;
+  display: inline-block;
+  width: 219px;
+  height: 64px;
+}
+.package {
+  top: 159px;
+  font-weight: 500;
+  width: 194px;
+  height: 23px;
+}
+.packageDetailsInner {
+  position: absolute;
+  top: 339.7px;
+  left: 15.7px;
+  border-top: 0.6px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 396.6px;
+  height: 0.6px;
+}
+.groupIcon {
+  position: absolute;
+  top: 171px;
+  left: 299px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.receiverDetails {
+  position: absolute;
+  top: 358px;
+  left: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 194px;
+  height: 35px;
+}
+.packageDetailsChild1,
+.rectangleTextfield {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 438px;
+  left: 16px;
+}
+.packageDetailsChild1 {
+  top: 542px;
+}
+.nameOfReceiver,
+.phoneNumberOf {
+  position: absolute;
+  top: 403px;
+  left: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 194px;
+  height: 35px;
+}
+.phoneNumberOf {
+  top: 507px;
+}
+.packageDetailsChild2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 639px;
+  left: 20px;
+}
+.ewayBillNumberoptional {
+  position: absolute;
+  top: 604px;
+  left: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 278px;
+  height: 35px;
+}
+.iconLeft {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--ink-06);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--color-black);
+  position: absolute;
+  height: 6.92%;
+  top: 89.32%;
+  bottom: 3.76%;
+  left: calc(50% - 184.5px);
+  border-radius: var(--br-10xs);
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.packageDetails {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}

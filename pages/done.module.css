@@ -1,0 +1,414 @@
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1264px;
+  height: 998px;
+  object-fit: cover;
+}
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+}
+.gridiconsLocation {
+  top: 305px;
+  left: 111px;
+  display: none;
+}
+.gridiconsLocation,
+.gridiconsLocation1,
+.gridiconsLocation2,
+.whhHouseIcon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.gridiconsLocation1 {
+  top: 308px;
+  left: 225px;
+  display: none;
+}
+.gridiconsLocation2,
+.whhHouseIcon {
+  top: 341px;
+  left: 178px;
+}
+.whhHouseIcon {
+  top: 301px;
+  left: 161px;
+  width: 40px;
+  height: 39.96px;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--ink-06);
+  box-shadow: var(--purple-button-shadow);
+}
+.rs20 {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  width: calc(100% - 255px);
+  top: 241px;
+  left: 209px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.insurance {
+  width: calc(100% - 204px);
+  top: 235px;
+  left: 21px;
+}
+.awesomeYoureDone,
+.bookedSpace,
+.insurance,
+.parkingSession {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.bookedSpace {
+  width: calc(100% - 208px);
+  top: 77.38px;
+  left: 9px;
+  text-align: center;
+  justify-content: center;
+}
+.awesomeYoureDone,
+.parkingSession {
+  left: 19px;
+}
+.awesomeYoureDone {
+  width: calc(100% - 37px);
+  top: 38.11px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+.parkingSession {
+  width: calc(100% - 208px);
+  top: 140.9px;
+}
+.lekkiGardens {
+  margin: 0;
+}
+.lekkiGardensCarContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.lekkiGardensCarContainer {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  width: calc(100% - 146px);
+  top: 86.62px;
+  left: 110px;
+  letter-spacing: 0.1px;
+  line-height: 17px;
+  white-space: pre-wrap;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.checkInTime {
+  width: calc(100% - 204px);
+  top: 179.01px;
+  left: 20px;
+}
+.am,
+.checkInTime,
+.checkOutTime,
+.pm,
+.rs1220,
+.total {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.am {
+  width: calc(100% - 255px);
+  top: 179.01px;
+  left: 209px;
+  font-weight: 600;
+}
+.checkOutTime,
+.pm,
+.rs1220,
+.total {
+  width: calc(100% - 204px);
+  top: 209.04px;
+  left: 20px;
+}
+.pm,
+.rs1220,
+.total {
+  width: calc(100% - 255px);
+  left: 209px;
+  font-weight: 600;
+}
+.rs1220,
+.total {
+  width: calc(100% - 259px);
+  top: 278.34px;
+  left: 212px;
+  font-size: var(--font-size-5xl);
+}
+.total {
+  width: calc(100% - 256px);
+  left: 21px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 118.5px;
+  left: 21.5px;
+  border-top: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 299px;
+  height: 1px;
+}
+.groupItem {
+  top: 277.5px;
+}
+.rectangleParent {
+  position: absolute;
+  height: calc(100% - 484px);
+  width: calc(100% - 32px);
+  top: 330px;
+  right: 16px;
+  bottom: 154px;
+  left: 16px;
+  text-align: left;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  box-shadow: var(--purple-button-shadow);
+}
+.payNow {
+  position: absolute;
+  height: calc(100% - 28px);
+  width: calc(100% - 40px);
+  top: 14px;
+  left: 20px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonprimarydefault {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 692px;
+  right: 16px;
+  left: 16px;
+  height: 56px;
+  color: var(--ink-06);
+}
+.emojionePartyPopperIcon {
+  position: absolute;
+  top: 336px;
+  left: 173px;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+}
+.rectangle2 {
+  position: absolute;
+  height: calc(100% - 10.84px);
+  width: 100%;
+  top: -3px;
+  right: 0;
+  bottom: 13.84px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
+}
+.lekkiGardensCar,
+.space4c {
+  position: absolute;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lekkiGardensCar {
+  height: calc(100% - 23.77px);
+  width: calc(100% - 121px);
+  top: -12.7px;
+  left: 13px;
+}
+.space4c {
+  height: 100%;
+  width: 24.65%;
+  top: -100%;
+  left: 72.3%;
+  color: var(--color-blueviolet-100);
+}
+.rectangleGroup {
+  height: calc(100% - 755px);
+  width: calc(100% - 32px);
+  top: 145px;
+  right: 16px;
+  bottom: 610px;
+  left: 16px;
+  font-size: var(--font-size-lg);
+}
+.div,
+.doneChild,
+.rectangleGroup {
+  position: absolute;
+}
+.div {
+  top: 571px;
+  left: 126px;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.doneChild {
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 788px;
+}
+.buttonprimarydefault1 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 692px;
+  right: 16px;
+  left: 16px;
+  height: 56px;
+  cursor: pointer;
+  color: var(--ink-06);
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--ink-06);
+  width: 257px;
+  height: 258px;
+}
+.emojioneCheckMarkButtonIcon {
+  position: absolute;
+  top: 40px;
+  left: 84px;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+.spaceSuccessfullyBooked {
+  position: absolute;
+  top: 135px;
+  left: 11px;
+  letter-spacing: 0.12px;
+  font-weight: 600;
+  display: inline-block;
+  width: 234px;
+  height: 25px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 218px;
+  left: 54px;
+  width: 257px;
+  height: 258px;
+  font-size: var(--font-size-lg);
+}
+.done {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

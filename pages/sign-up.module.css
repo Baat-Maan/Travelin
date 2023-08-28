@@ -1,0 +1,192 @@
+.mditickCircle {
+  position: absolute;
+  top: 566px;
+  left: 40px;
+}
+.enterViaSocial,
+.frameChild {
+  position: absolute;
+  top: 10px;
+  left: 59px;
+}
+.frameChild {
+  top: 62px;
+  left: 176px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-400);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.vectorIcon {
+  position: absolute;
+  height: 8.4%;
+  width: 6.3%;
+  top: 41.9%;
+  right: 34.35%;
+  bottom: 49.69%;
+  left: 59.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 62px;
+  left: 84px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-400);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.deviconfacebook,
+.mditwitter {
+  position: absolute;
+  top: 85px;
+  left: 209px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.deviconfacebook {
+  top: 84px;
+  left: 107px;
+  height: 25px;
+}
+.orLoginWith {
+  margin: 0;
+}
+.orLoginWithContainer {
+  position: absolute;
+  top: 153px;
+  left: 108px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  color: var(--color-midnightblue);
+  text-align: center;
+  width: 110px;
+  height: 50px;
+}
+.enterViaSocialNetworksParent {
+  position: absolute;
+  top: 193px;
+  left: 28px;
+  border-radius: var(--br-31xl);
+  width: 337px;
+  height: 210px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+}
+.enterViaSocialNetworksParent,
+.login {
+  color: var(--color-crimson-100);
+}
+.youAlreadyHaveContainer {
+  position: absolute;
+  top: 714px;
+  left: 42px;
+  cursor: pointer;
+}
+.signUp1 {
+  position: absolute;
+  top: 15px;
+  left: 118px;
+}
+.signUpWrapper {
+  position: absolute;
+  top: 637px;
+  background-color: var(--color-gray-500);
+  height: 59px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--ink-06);
+}
+.signUpChild,
+.signUpContainer,
+.signUpWrapper {
+  left: 42px;
+  border-radius: var(--br-3xs);
+  width: 308px;
+}
+.signUpContainer {
+  position: absolute;
+  top: 637px;
+  background-color: var(--color-gray-500);
+  height: 59px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--ink-06);
+}
+.signUpChild {
+  border: 0;
+  display: block;
+  font-family: var(--font-mplus-1p-bold);
+  font-size: var(--font-size-smi);
+  background-color: var(--color-mistyrose);
+  top: 412px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 53px;
+  mix-blend-mode: color-burn;
+}
+.mditwitter1,
+.signUpChild,
+.signUpItem {
+  position: absolute;
+  overflow: hidden;
+}
+.signUpItem {
+  border: 0;
+  background-color: var(--color-mistyrose);
+  top: 490px;
+  left: 37px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 308px;
+  height: 53px;
+  mix-blend-mode: color-burn;
+}
+.mditwitter1 {
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.pleaseLoginOrContainer,
+.signUp3 {
+  position: absolute;
+  left: 40px;
+  text-align: left;
+}
+.signUp3 {
+  top: 82px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-crimson-100);
+  width: 132px;
+  height: 48px;
+}
+.pleaseLoginOrContainer {
+  top: 130px;
+  font-size: var(--font-size-xs);
+}
+.iAgreeWith {
+  position: absolute;
+  top: 568px;
+  left: 72px;
+}
+.signUp {
+  position: relative;
+  background-color: var(--color-gainsboro-300);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-mplus-1p-bold);
+}

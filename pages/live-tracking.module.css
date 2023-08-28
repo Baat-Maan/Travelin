@@ -1,0 +1,278 @@
+.deliveryRequest7821032,
+.raiseIssue {
+  position: absolute;
+  top: 150px;
+  left: 68px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  width: 273px;
+  height: 17px;
+}
+.raiseIssue {
+  top: 124px;
+  left: 264px;
+  font-size: var(--components-large-size);
+  color: var(--color-mistyrose);
+  text-align: right;
+  width: 113px;
+}
+.liveTrackingChild {
+  position: absolute;
+  top: 150px;
+  left: 34px;
+  border-radius: 50%;
+  background-color: var(--color-forestgreen);
+  border: 2px solid var(--color-forestgreen);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.vuesaxboldtruckFastIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.vuesaxboldtruckFastWrapper {
+  border-radius: var(--br-481xl);
+  background: linear-gradient(180deg, #fbe0ed 99.99%, #a79eff);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inProcessSendingCity {
+  position: relative;
+  font-weight: 600;
+}
+.bangalore {
+  position: relative;
+  font-size: var(--font-size-3xs);
+}
+.inProcessSendingCityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-6xs);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.frameParent {
+  position: absolute;
+  top: 244px;
+  left: 16px;
+  width: 236px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.pm {
+  position: absolute;
+  top: 248px;
+  left: 316px;
+}
+.frameGroup,
+.vuesaxboldrouting2Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vuesaxboldrouting2Wrapper {
+  border-radius: var(--br-481xl);
+  background-color: #162140;
+  width: 50px;
+  height: 50px;
+}
+.frameGroup {
+  position: absolute;
+  top: 386px;
+  left: 16px;
+  gap: var(--gap-xs);
+}
+.pilani1 {
+  margin: 0;
+}
+.pilani {
+  position: absolute;
+  top: 578px;
+  left: 78px;
+  font-size: var(--font-size-3xs);
+}
+.vuesaxboldboxWrapper {
+  border-radius: var(--br-481xl);
+  background-color: #121d3d;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv,
+.receivedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameDiv {
+  position: absolute;
+  top: 539px;
+  left: 16px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.lineDiv,
+.liveTrackingItem {
+  position: absolute;
+  top: 293.5px;
+  left: 40.5px;
+  border-right: 1px solid var(--color-mediumpurple);
+  box-sizing: border-box;
+  width: 1px;
+  height: 93px;
+}
+.lineDiv {
+  top: 301.5px;
+  left: 352.5px;
+}
+.ellipseDiv,
+.lineIcon {
+  position: absolute;
+  top: 445px;
+  left: 39px;
+  width: 3px;
+  height: 86.02px;
+}
+.ellipseDiv {
+  top: 271px;
+  left: 341px;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 20px;
+  height: 20px;
+}
+.liveTrackingChild1 {
+  position: absolute;
+  top: 453.5px;
+  left: 352.5px;
+  border-right: 1px solid var(--color-mediumpurple);
+  box-sizing: border-box;
+  width: 1px;
+  height: 93px;
+}
+.liveTrackingChild2 {
+  top: 403px;
+  left: 343px;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.liveTrackingChild2,
+.liveTrackingChild3,
+.okIcon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+.liveTrackingChild3 {
+  top: 554px;
+  left: 343px;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.okIcon {
+  top: 271px;
+  left: 341px;
+  object-fit: cover;
+}
+.liveTrackingChild4,
+.liveTrackingChild5 {
+  position: absolute;
+  top: 123.7px;
+  left: 6.7px;
+  border-top: 0.6px solid var(--color-mistyrose);
+  box-sizing: border-box;
+  width: 396.6px;
+  height: 0.6px;
+}
+.liveTrackingChild5 {
+  top: 140.7px;
+  left: 15.7px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ink-06);
+  width: 428px;
+  height: 91px;
+}
+.delivery {
+  position: absolute;
+  top: 29px;
+  left: 56px;
+  display: inline-block;
+  width: 149px;
+  height: 30px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.backChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.back {
+  position: absolute;
+  top: 33px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.rectangleParent {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 428px;
+  height: 91px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-ibm-plex-sans);
+}
+.liveTracking {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--components-large);
+}

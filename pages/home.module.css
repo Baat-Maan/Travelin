@@ -1,0 +1,255 @@
+.helloShruti1 {
+  margin: 0;
+}
+.explore,
+.helloShruti,
+.travelin {
+  position: absolute;
+  top: 21px;
+  left: 28px;
+  font-family: var(--font-kalam);
+  color: var(--color-gray-700);
+  display: inline-block;
+  width: 319px;
+  height: 25px;
+}
+.explore,
+.travelin {
+  top: 165px;
+}
+.travelin {
+  top: 46px;
+  left: 144px;
+  font-size: var(--font-size-xl);
+  font-family: var(--components-button-default);
+  color: var(--color-red-100);
+  width: 296px;
+  height: 41px;
+}
+.buttonChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-mistyrose);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.button,
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  position: absolute;
+  top: 208px;
+  left: 32px;
+  width: 120px;
+  height: 120px;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  left: 217px;
+}
+.button2,
+.button3,
+.button4,
+.button5 {
+  top: 378px;
+  left: 33px;
+}
+.button3,
+.button4,
+.button5 {
+  top: 379px;
+  left: 217px;
+}
+.button4,
+.button5 {
+  top: 559px;
+  left: 33px;
+}
+.button5 {
+  left: 217px;
+}
+.busBooking,
+.flights,
+.hotel,
+.myRide,
+.packageDelivery,
+.trainBooking {
+  position: absolute;
+  top: 328px;
+  left: 41px;
+  display: inline-block;
+  width: 112px;
+  height: 14px;
+}
+.busBooking,
+.flights,
+.hotel,
+.myRide,
+.packageDelivery {
+  left: 235px;
+  width: 102px;
+}
+.flights,
+.hotel,
+.myRide,
+.packageDelivery {
+  top: 680px;
+  left: 225px;
+  width: 116px;
+}
+.flights,
+.hotel,
+.myRide {
+  top: 499px;
+  left: 251px;
+  width: 82px;
+}
+.flights,
+.hotel {
+  top: 680px;
+  left: 70px;
+}
+.flights {
+  top: 499px;
+  left: 62px;
+}
+.homeChild,
+.homeItem,
+.image3Icon {
+  position: absolute;
+  top: 146px;
+  left: 17px;
+  width: 345px;
+  height: 2px;
+}
+.homeItem,
+.image3Icon {
+  top: 720px;
+}
+.image3Icon {
+  top: 209px;
+  left: 217px;
+  border-radius: var(--br-3xs);
+  width: 121px;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.bookings,
+.home2,
+.myRide1 {
+  top: 738px;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+}
+.home2 {
+  position: absolute;
+  left: 23px;
+}
+.bookings,
+.myRide1 {
+  font-weight: 300;
+}
+.myRide1 {
+  position: absolute;
+  left: 102px;
+  cursor: pointer;
+}
+.bookings {
+  left: 276px;
+}
+.bookings,
+.image8Icon,
+.package {
+  position: absolute;
+  cursor: pointer;
+}
+.package {
+  top: 738px;
+  left: 194px;
+  font-weight: 300;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+}
+.image8Icon {
+  top: 28px;
+  left: 307px;
+  border-radius: var(--br-81xl);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.home1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ink-06);
+  width: 375px;
+  height: 780px;
+  overflow: hidden;
+}
+.image2Icon,
+.image4Icon,
+.image5Icon,
+.image6Icon,
+.image7Icon {
+  position: absolute;
+  top: 207.03px;
+  left: 27.03px;
+  border-radius: var(--br-3xs);
+  width: 128.34px;
+  height: 128.34px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image4Icon,
+.image5Icon,
+.image6Icon,
+.image7Icon {
+  top: 377px;
+  left: 33px;
+  width: 118px;
+  height: 120px;
+}
+.image5Icon,
+.image6Icon,
+.image7Icon {
+  left: 218px;
+  width: 120px;
+  height: 121px;
+}
+.image6Icon,
+.image7Icon {
+  top: 560px;
+  left: 34px;
+  width: 118px;
+  height: 118px;
+}
+.image7Icon {
+  top: 557px;
+  left: 218px;
+  width: 120px;
+  height: 121px;
+}
+.home {
+  position: relative;
+  width: 100%;
+  height: 782px;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

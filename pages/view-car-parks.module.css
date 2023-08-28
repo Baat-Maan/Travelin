@@ -1,0 +1,195 @@
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1264px;
+  height: 998px;
+  object-fit: cover;
+}
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+}
+.buttonprimarydefaultFormgroup {
+  width: calc(100% - 32px);
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 99px;
+  right: 12px;
+  left: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 2.71%;
+  width: 6.67%;
+  top: 9.48%;
+  right: 87.73%;
+  bottom: 87.81%;
+  left: 5.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.viewCarParksChild,
+.viewCarParksItem {
+  position: absolute;
+  top: 288px;
+  left: 116px;
+  border-radius: 50%;
+  background-color: rgba(97, 62, 234, 0.13);
+  width: 168px;
+  height: 168px;
+  display: none;
+}
+.viewCarParksItem {
+  top: 317px;
+  left: 145px;
+  background-color: rgba(97, 62, 234, 0.22);
+  width: 110px;
+  height: 110px;
+}
+.faSolidparkingIcon,
+.gridiconsLocation {
+  position: absolute;
+  top: 341px;
+  left: 178px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.faSolidparkingIcon {
+  top: 309px;
+  left: 111px;
+  width: 28px;
+  height: 32px;
+  cursor: pointer;
+}
+.faSolidparkingIcon1,
+.faSolidparkingIcon2,
+.faSolidparkingIcon3 {
+  position: absolute;
+  top: 356px;
+  left: 263px;
+  width: 28px;
+  height: 32px;
+  overflow: hidden;
+}
+.faSolidparkingIcon2,
+.faSolidparkingIcon3 {
+  top: 406px;
+  left: 169px;
+}
+.faSolidparkingIcon3 {
+  top: 577px;
+  left: 196px;
+  cursor: pointer;
+}
+.faSolidparkingIcon4,
+.faSolidparkingIcon5 {
+  position: absolute;
+  top: 464px;
+  left: 254px;
+  width: 28px;
+  height: 32px;
+  overflow: hidden;
+}
+.faSolidparkingIcon5 {
+  top: 466px;
+  left: 138px;
+}
+.unionIcon {
+  position: relative;
+  width: 92px;
+  height: 89px;
+}
+.noParking,
+.parkingSpot,
+.yourLocation {
+  position: absolute;
+  top: 245px;
+  left: 73px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 41px;
+}
+.noParking,
+.yourLocation {
+  top: 272px;
+  left: 161px;
+}
+.noParking {
+  top: 502px;
+  left: 172px;
+  width: 72px;
+}
+.viewCarParks {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

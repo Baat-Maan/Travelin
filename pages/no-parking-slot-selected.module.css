@@ -1,0 +1,235 @@
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1264px;
+  height: 998px;
+  object-fit: cover;
+}
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.rectangle,
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+}
+.rectangle {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
+}
+.lekkiGardens {
+  position: absolute;
+  height: calc(100% - 28px);
+  width: calc(100% - 156px);
+  top: 14px;
+  left: 52px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.eiCloseIcon,
+.gridiconsLocation {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.eiCloseIcon {
+  top: 20px;
+  left: 297px;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+.buttonprimarydefault {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 99px;
+  right: 10px;
+  left: 22px;
+  height: 56px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 2.71%;
+  width: 6.67%;
+  top: 9.48%;
+  right: 87.73%;
+  bottom: 87.81%;
+  left: 5.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.faSolidparkingIcon,
+.gridiconsLocation1 {
+  position: absolute;
+  top: 341px;
+  left: 178px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.faSolidparkingIcon {
+  top: 463px;
+  left: 261px;
+  width: 28px;
+  height: 32px;
+}
+.noParkingSlotSelectedChild {
+  position: absolute;
+  top: 477px;
+  left: 26px;
+  border-radius: var(--br-xl);
+  background-color: #f04870;
+  width: 343px;
+  height: 224px;
+}
+.rs500 {
+  position: absolute;
+  height: calc(100% - 106px);
+  width: calc(100% - 230px);
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.noParkingZone {
+  width: calc(100% - 112px);
+  top: 0;
+  left: 105px;
+  text-align: right;
+}
+.distanceToVenue,
+.m,
+.noParkingZone,
+.thisIsA {
+  position: absolute;
+  height: calc(100% - 106px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.m {
+  width: calc(100% - 197px);
+  top: 106px;
+  left: 193px;
+  font-weight: 600;
+}
+.distanceToVenue,
+.thisIsA {
+  width: calc(100% - 165px);
+  top: 105px;
+  left: 9px;
+}
+.thisIsA {
+  width: calc(100% - 6px);
+  top: 59px;
+  left: 6px;
+}
+.groupChild {
+  position: absolute;
+  top: 191.5px;
+  left: 0.5px;
+  background-color: var(--color-darkslategray-200);
+  border-top: 1px solid var(--color-mistyrose);
+  box-sizing: border-box;
+  width: 299px;
+  height: 1px;
+}
+.siGlyphmoneyIcon {
+  position: absolute;
+  top: 597px;
+  left: 33px;
+  width: 26px;
+  height: 24.47px;
+  overflow: hidden;
+  display: none;
+}
+.rs500Parent {
+  position: absolute;
+  height: calc(100% - 558px);
+  width: calc(100% - 62px);
+  top: 477px;
+  right: 23px;
+  bottom: 81px;
+  left: 39px;
+}
+.noParkingSlotSelected {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

@@ -1,0 +1,378 @@
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1264px;
+  height: 998px;
+  object-fit: cover;
+}
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+}
+.gridiconsLocation {
+  top: 305px;
+  left: 111px;
+  display: none;
+}
+.gridiconsLocation,
+.gridiconsLocation1,
+.gridiconsLocation2,
+.whhHouseIcon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.gridiconsLocation1 {
+  top: 308px;
+  left: 225px;
+  display: none;
+}
+.gridiconsLocation2,
+.whhHouseIcon {
+  top: 341px;
+  left: 178px;
+}
+.whhHouseIcon {
+  top: 301px;
+  left: 161px;
+  width: 40px;
+  height: 39.96px;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 1px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 1px;
+  border-radius: var(--br-7xs);
+  background-color: var(--ink-06);
+  box-shadow: var(--purple-button-shadow);
+}
+.rs20 {
+  position: absolute;
+  width: calc(100% - 256px);
+  top: 241px;
+  left: 210px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.bookedSpace,
+.insurance,
+.rs20 {
+  height: calc(100% - 295.66px);
+}
+.insurance {
+  position: absolute;
+  width: calc(100% - 205px);
+  top: 235px;
+  left: 22px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.bookedSpace {
+  width: calc(100% - 209px);
+  top: 77.38px;
+  left: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.awesomeYoureDone,
+.bookedSpace,
+.parkingSession {
+  position: absolute;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.awesomeYoureDone {
+  height: calc(100% - 284px);
+  width: calc(100% - 38px);
+  top: 38px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+.parkingSession {
+  height: calc(100% - 295.66px);
+  width: calc(100% - 209px);
+  top: 140.9px;
+  left: 20px;
+}
+.lekkiGardens {
+  margin: 0;
+}
+.lekkiGardensCarContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.lekkiGardensCarContainer {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  width: calc(100% - 147px);
+  top: 86.62px;
+  left: 111px;
+  letter-spacing: 0.1px;
+  line-height: 17px;
+  white-space: pre-wrap;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.checkInTime {
+  width: calc(100% - 205px);
+  top: 179.01px;
+  left: 21px;
+}
+.am,
+.checkInTime,
+.checkOutTime,
+.pm,
+.rs1220,
+.total {
+  position: absolute;
+  height: calc(100% - 295.66px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.am {
+  width: calc(100% - 256px);
+  top: 179.01px;
+  left: 210px;
+  font-weight: 600;
+}
+.checkOutTime,
+.pm,
+.rs1220,
+.total {
+  width: calc(100% - 205px);
+  top: 209.04px;
+  left: 21px;
+}
+.pm,
+.rs1220,
+.total {
+  width: calc(100% - 256px);
+  left: 210px;
+  font-weight: 600;
+}
+.rs1220,
+.total {
+  width: calc(100% - 260px);
+  top: 278.34px;
+  left: 213px;
+  font-size: var(--font-size-5xl);
+}
+.total {
+  width: calc(100% - 257px);
+  left: 22px;
+}
+.groupChild {
+  position: absolute;
+  top: 118.5px;
+  left: 22.5px;
+  border-top: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 299px;
+  height: 1px;
+}
+.rectangleParent {
+  position: absolute;
+  height: calc(100% - 484px);
+  width: calc(100% - 31px);
+  top: 301px;
+  right: 14px;
+  bottom: 183px;
+  left: 17px;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  box-shadow: var(--purple-button-shadow);
+}
+.payNow {
+  position: absolute;
+  height: calc(100% - 28px);
+  width: calc(100% - 40px);
+  top: 14px;
+  left: 20px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonprimarydefault {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 692px;
+  right: 16px;
+  left: 16px;
+  height: 56px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--ink-06);
+}
+.emojionePartyPopperIcon {
+  position: absolute;
+  top: 324px;
+  left: 339px;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+}
+.rectangle2 {
+  position: absolute;
+  height: calc(100% - 0.45px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.45px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
+}
+.lekkiGardensCar,
+.space4c {
+  position: absolute;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lekkiGardensCar {
+  height: calc(100% - 28.89px);
+  width: calc(100% - 121px);
+  top: -21.33px;
+  left: 13px;
+}
+.space4c {
+  height: 80.56%;
+  width: 24.65%;
+  top: -100%;
+  left: 73.41%;
+  color: var(--color-blueviolet-100);
+}
+.rectangleGroup {
+  position: absolute;
+  height: calc(100% - 746px);
+  width: calc(100% - 32px);
+  top: 142px;
+  right: 16px;
+  bottom: 604px;
+  left: 16px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back {
+  position: absolute;
+  top: 45px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+}
+.mditickCircle {
+  position: absolute;
+  top: 526px;
+  left: 120px;
+}
+.parkingTimeExhausted {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

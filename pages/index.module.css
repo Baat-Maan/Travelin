@@ -1,0 +1,329 @@
+.vehicleDetailsChild,
+.vehicleDetailsItem {
+  border: 0;
+  background-color: var(--ink-06);
+  position: absolute;
+  height: 6.26%;
+  width: 89.74%;
+  top: 23.32%;
+  right: 4.15%;
+  bottom: 70.42%;
+  left: 6.11%;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 1px 15px #e0e0e0;
+}
+.vehicleDetailsItem {
+  top: 63.94%;
+  right: 3.64%;
+  bottom: 29.8%;
+  left: 6.62%;
+}
+.vehicleNo {
+  position: relative;
+  font-weight: 600;
+}
+.vehicleNoWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 256px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vehicleDetailsInner {
+  cursor: pointer;
+  position: absolute;
+  top: 148px;
+  left: 32px;
+  width: 256px;
+  height: 34px;
+}
+.enterTheAmount {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 243px;
+  flex-shrink: 0;
+}
+.enterTheAmountToRechargeWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 179px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv,
+.rectangleDiv {
+  position: absolute;
+  top: 466px;
+  left: 26px;
+  width: 179px;
+  height: 34px;
+}
+.rectangleDiv {
+  height: 14.57%;
+  width: 89.74%;
+  top: 38.36%;
+  right: 3.64%;
+  bottom: 47.06%;
+  left: 6.62%;
+  border-radius: var(--br-3xs);
+  background-color: var(--ink-06);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.walletBalanceWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 114.53px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 158px;
+  width: 71.72px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--components-large-size);
+}
+.frameParent {
+  position: absolute;
+  top: 74px;
+  left: 49px;
+  width: 229.72px;
+  height: 19px;
+}
+.groupIcon {
+  position: relative;
+  width: 21.54px;
+  height: 16px;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 65px;
+  background-color: #f2f2f2;
+  width: 59.02px;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.groupParent {
+  position: absolute;
+  top: 316px;
+  left: 26px;
+  width: 278.72px;
+  height: 93px;
+}
+.frameDiv {
+  position: absolute;
+  top: 311px;
+  left: 291px;
+}
+.idfcBank,
+.krishnaChandhok,
+.switchToHdfc {
+  position: absolute;
+  top: 40.28%;
+  left: 59.29%;
+  font-size: var(--components-large-size);
+}
+.idfcBank,
+.switchToHdfc {
+  top: 44.5%;
+}
+.switchToHdfc {
+  top: 53.45%;
+  left: 65.14%;
+  font-size: var(--font-size-3xs);
+  font-weight: 200;
+}
+.issuedBank,
+.nameWrapper {
+  position: absolute;
+  left: 75px;
+}
+.nameWrapper {
+  top: 312px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.issuedBank {
+  top: 347px;
+  font-weight: 600;
+}
+.register {
+  position: relative;
+  font-size: var(--components-large-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--components-button-default);
+  color: var(--ink-06);
+  text-align: left;
+}
+.button,
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-112xl);
+  background-color: var(--color-black);
+  height: 5.21%;
+  left: calc(50% - 66.5px);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 1px 3px #ffbe89;
+  width: 134px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: absolute;
+  top: 90.92%;
+  bottom: 3.87%;
+  box-sizing: border-box;
+}
+.button1 {
+  top: 30.95%;
+  bottom: 63.84%;
+}
+.button1,
+.button2,
+.separator {
+  position: absolute;
+  box-sizing: border-box;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-112xl);
+  background-color: var(--color-darkgray-100);
+  height: 3.96%;
+  top: 14.07%;
+  bottom: 81.97%;
+  left: calc(50% + 74.5px);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 1px 3px #ffbe89;
+  width: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.separator {
+  top: 379.5px;
+  left: 41.5px;
+  border-top: 1px dashed #c1c1c1;
+  width: 319px;
+  height: 1px;
+}
+.fastTag1,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fastTag1 {
+  height: 5.09%;
+  width: 40.26%;
+  top: 7.58%;
+  right: 28.72%;
+  bottom: 87.32%;
+  left: 31.03%;
+  object-fit: cover;
+}
+.vectorIcon {
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+}
+.backChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.back {
+  position: absolute;
+  top: 48px;
+  left: 26px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.hdfcergo {
+  color: var(--color-red-200);
+}
+.fastagHdfcergo {
+  position: absolute;
+  top: 575px;
+  left: 26px;
+  line-height: 21px;
+  display: inline-block;
+  width: 141px;
+  height: 28px;
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
+.getInsuredAt,
+.rectangleFormcontrollabel {
+  position: absolute;
+  top: 624px;
+  left: 33px;
+}
+.getInsuredAt {
+  top: 620px;
+  left: 74px;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  display: inline-block;
+  width: 167px;
+  height: 23px;
+}
+.vehicleDetails {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--components-button-default);
+}

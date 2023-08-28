@@ -1,0 +1,502 @@
+.image4Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 198px;
+  object-fit: cover;
+}
+.itinerary {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--color-mistyrose);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 74px;
+}
+.july17,
+.july17Wrapper {
+  position: absolute;
+  width: 91px;
+  height: 25px;
+}
+.july17 {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.july17Wrapper {
+  top: 152px;
+  left: 505px;
+  font-size: var(--font-size-5xl);
+  color: var(--ink-06);
+  font-family: var(--font-helvetica);
+}
+.itineraryFamilyTripChild {
+  position: absolute;
+  top: 218px;
+  left: 15px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 360px;
+  height: 564px;
+}
+.filmCity {
+  margin: 0;
+}
+.filmCityJuhuContainer {
+  position: absolute;
+  top: 500px;
+  left: 175px;
+}
+.siddhivinayakTempleCrawforContainer {
+  position: absolute;
+  top: 605px;
+  left: 178px;
+  display: inline-block;
+  width: 189px;
+  height: 48px;
+}
+.ferryToElephantaContainer {
+  position: absolute;
+  top: 707px;
+  left: 178px;
+}
+.ellipseDiv,
+.itineraryFamilyTripChild1,
+.itineraryFamilyTripChild2,
+.itineraryFamilyTripInner,
+.itineraryFamilyTripItem {
+  position: absolute;
+  top: 250px;
+  left: 32px;
+  border-radius: 50%;
+  background-color: var(--color-mistyrose);
+  width: 25px;
+  height: 23px;
+}
+.ellipseDiv,
+.itineraryFamilyTripChild1,
+.itineraryFamilyTripChild2,
+.itineraryFamilyTripInner {
+  top: 354px;
+}
+.ellipseDiv,
+.itineraryFamilyTripChild1,
+.itineraryFamilyTripChild2 {
+  top: 458px;
+}
+.itineraryFamilyTripChild1,
+.itineraryFamilyTripChild2 {
+  top: 580px;
+}
+.itineraryFamilyTripChild2 {
+  top: 684px;
+}
+.itineraryFamilyTripChild3,
+.lineDiv {
+  position: absolute;
+  top: 267.16px;
+  left: 44.16px;
+  border-right: 1.7px solid var(--color-mistyrose);
+  box-sizing: border-box;
+  width: 1.68px;
+  height: 227.68px;
+}
+.itineraryFamilyTripChild3 {
+  top: 493.16px;
+  height: 203.68px;
+}
+.day1,
+.morningAfternoonEveningContainer {
+  position: absolute;
+  left: 90px;
+  font-weight: 600;
+}
+.day1 {
+  top: 247px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-300);
+}
+.morningAfternoonEveningContainer {
+  top: 282px;
+  white-space: pre-wrap;
+}
+.checkInGatewayOfContainer {
+  position: absolute;
+  top: 282px;
+  left: 172px;
+}
+.chhatrapatiShivajiTerminusContainer {
+  position: absolute;
+  top: 395px;
+  left: 175px;
+}
+.morningAfternoonEveningContainer1 {
+  position: absolute;
+  top: 395px;
+  left: 91px;
+  font-weight: 600;
+}
+.morningAfternoonEveningContainer2 {
+  position: absolute;
+  top: 497px;
+  left: 88px;
+  font-weight: 600;
+}
+.morningAfternoonEveningContainer3 {
+  position: absolute;
+  top: 608px;
+  left: 90px;
+  font-weight: 600;
+}
+.day2,
+.day3,
+.day4,
+.day5,
+.morningAfternoonEveningContainer4 {
+  position: absolute;
+  top: 707px;
+  left: 90px;
+  font-weight: 600;
+}
+.day2,
+.day3,
+.day4,
+.day5 {
+  top: 354px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-300);
+}
+.day3,
+.day4,
+.day5 {
+  top: 455px;
+}
+.day4,
+.day5 {
+  top: 573px;
+}
+.day5 {
+  top: 677px;
+}
+.aug2023,
+.aug20231,
+.aug20232,
+.aug20233,
+.aug20234 {
+  position: absolute;
+  top: 249px;
+  left: 173px;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-300);
+}
+.aug20231,
+.aug20232,
+.aug20233,
+.aug20234 {
+  top: 356px;
+  left: 178px;
+}
+.aug20232,
+.aug20233,
+.aug20234 {
+  top: 460px;
+}
+.aug20233,
+.aug20234 {
+  top: 573px;
+  left: 180px;
+}
+.aug20234 {
+  top: 681px;
+  left: 178px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 790.5px;
+  left: -3px;
+  width: 392px;
+  height: 1px;
+}
+.itineraryFamilyTripChild4,
+.itineraryFamilyTripChild5,
+.rectangleDiv {
+  position: absolute;
+  top: 791px;
+  left: 13px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 360px;
+  height: 174px;
+}
+.itineraryFamilyTripChild4,
+.itineraryFamilyTripChild5 {
+  top: 984px;
+  left: 12px;
+}
+.itineraryFamilyTripChild5 {
+  top: 1180px;
+  left: 13px;
+}
+.itineraryFamilyTripChild6,
+.itineraryFamilyTripChild7 {
+  position: absolute;
+  top: 1216px;
+  left: 24px;
+  border-radius: 50%;
+  background-color: var(--color-crimson-200);
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  width: 97px;
+  height: 108px;
+}
+.itineraryFamilyTripChild7 {
+  top: 1209px;
+  left: 13px;
+  box-shadow: 15px 15px 15px 8px rgba(0, 0, 0, 0.25);
+  width: 64px;
+  height: 71px;
+}
+.itineraryFamilyTripChild8 {
+  position: absolute;
+  top: 1226px;
+  left: 32px;
+  border-radius: 50%;
+  background-color: var(--ink-06);
+  width: 82px;
+  height: 90px;
+}
+.image2Icon,
+.itineraryFamilyTripChild9 {
+  position: absolute;
+  top: 1230px;
+  height: 81px;
+}
+.itineraryFamilyTripChild9 {
+  left: 36px;
+  border-radius: 50%;
+  background-color: var(--color-silver-100);
+  width: 73px;
+}
+.image2Icon {
+  left: 35px;
+  border-radius: var(--br-116xl);
+  width: 74px;
+  object-fit: cover;
+}
+.groupHealthInsuranceContainer {
+  position: absolute;
+  top: 1225px;
+  left: 144px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-dimgray-300);
+  display: inline-block;
+  width: 178px;
+  height: 81px;
+}
+.commaIcon,
+.commaIcon1,
+.commaIcon2,
+.commaIcon3 {
+  position: absolute;
+  top: 1194px;
+  left: 114px;
+  width: 19.7px;
+  height: 32.38px;
+  object-fit: cover;
+}
+.commaIcon1,
+.commaIcon2,
+.commaIcon3 {
+  left: 132px;
+}
+.commaIcon2,
+.commaIcon3 {
+  top: 1308px;
+  left: 319px;
+  width: 20px;
+  height: 32px;
+}
+.commaIcon3 {
+  top: 1311px;
+  left: 303px;
+  height: 24px;
+}
+.itineraryFamilyTripChild10 {
+  position: absolute;
+  top: 983.5px;
+  left: 35px;
+  width: 337px;
+  height: 192px;
+}
+.getInsuredAt,
+.tickBox {
+  position: absolute;
+  left: 43px;
+}
+.getInsuredAt {
+  top: 986px;
+  font-size: var(--components-large-size);
+  line-height: 159.14%;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 153px;
+  height: 25px;
+}
+.tickBox {
+  top: 1101px;
+}
+.paid,
+.rs299,
+.rs99,
+.standard {
+  position: absolute;
+  top: 1028px;
+  left: 71px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  display: inline-block;
+  width: 211px;
+  height: 17px;
+}
+.paid,
+.rs299,
+.rs99 {
+  top: 1101px;
+}
+.rs299,
+.rs99 {
+  top: 1028px;
+  left: 266px;
+  text-align: right;
+  width: 98px;
+}
+.rs299 {
+  top: 1102px;
+  left: 274px;
+}
+.tickBox1 {
+  position: absolute;
+  top: 1028px;
+  left: 43px;
+}
+.coverHealthTravel,
+.coverYourAnd {
+  position: absolute;
+  top: 1056px;
+  left: 43px;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  display: inline-block;
+  width: 346px;
+  height: 18px;
+}
+.coverHealthTravel {
+  top: 1129px;
+}
+.itineraryFamilyTripChild11 {
+  position: absolute;
+  top: 1021.37px;
+  left: 31.75px;
+  width: 10.2px;
+  height: 15.2px;
+}
+.communicableDiseasesContainer,
+.risksAssociated {
+  position: absolute;
+  top: 803px;
+  left: 43px;
+  font-size: var(--font-size-lg);
+  line-height: 159.14%;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 175px;
+}
+.communicableDiseasesContainer {
+  top: 844px;
+  left: 51px;
+  font-size: var(--font-size-mini);
+  width: 286px;
+  height: 95px;
+}
+.image33Icon {
+  position: absolute;
+  top: 861px;
+  left: 241px;
+  border-radius: var(--br-31xl) var(--br-31xl) 0 0;
+  width: 123px;
+  height: 79px;
+  object-fit: cover;
+}
+.iconLeft {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 370px;
+  height: 57.76px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.buttonWrapper {
+  position: absolute;
+  top: 1364.02px;
+  left: 2px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--ink-06);
+  font-family: var(--font-be-vietnam-pro);
+}
+.itineraryFamilyTrip {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 1442px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray-100);
+  font-family: var(--components-button-default);
+}

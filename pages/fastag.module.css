@@ -1,0 +1,69 @@
+.fastTag1,
+.poweredByPark {
+  position: absolute;
+  left: 4.1%;
+}
+.fastTag1 {
+  height: 22.35%;
+  width: 95.9%;
+  top: 18.95%;
+  right: 0;
+  bottom: 58.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.poweredByPark {
+  height: 36.73%;
+  width: 87.95%;
+  top: 47.84%;
+  display: inline-block;
+}
+.iconLeft {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  position: absolute;
+  height: 6.3%;
+  width: 90.66%;
+  top: 91.11%;
+  right: 4.72%;
+  bottom: 2.58%;
+  left: 4.62%;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: center;
+  color: var(--ink-06);
+  font-family: var(--font-be-vietnam-pro);
+}
+.fastag {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--components-button-default);
+}

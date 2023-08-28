@@ -1,0 +1,552 @@
+.rooms {
+  position: absolute;
+  top: 404.98px;
+  left: 0;
+  font-size: 22.16px;
+  letter-spacing: 1.01px;
+  line-height: 35.26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 431.18px;
+  height: 41px;
+}
+.screenshot20220426At518 {
+  position: absolute;
+  top: 450px;
+  left: 0;
+  width: 393px;
+  height: 196px;
+  object-fit: cover;
+}
+.specialRoomWith {
+  margin: 0;
+  line-height: 18.13px;
+}
+.roomDetail {
+  line-height: 24.18px;
+}
+.s {
+  line-height: 18.13px;
+}
+.roomDetails1 {
+  text-decoration: underline;
+}
+.span1 {
+  font-size: var(--font-size-mini-1);
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+}
+.roomDetails {
+  margin: 0;
+  font-size: 11.08px;
+  color: #052852;
+  font-family: var(--font-be-vietnam-pro);
+}
+.specialRoomWithContainer {
+  position: absolute;
+  top: 703px;
+  left: 25px;
+  text-align: left;
+  display: inline-block;
+  width: 367.71px;
+  height: 70px;
+  font-size: var(--font-size-mini-1);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-abhaya-libre);
+}
+.guestHouse {
+  position: absolute;
+  top: 662.88px;
+  left: 26.19px;
+  letter-spacing: 1.01px;
+  line-height: 17.13px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 385.84px;
+  height: 27px;
+}
+.screenshot20220426At5181 {
+  position: absolute;
+  top: 924.81px;
+  left: -2.01px;
+  width: 431.18px;
+  height: 195.44px;
+  object-fit: cover;
+}
+.roomDetails3 {
+  text-decoration: underline;
+  line-height: 24.18px;
+}
+.span2 {
+  font-size: var(--font-size-mini-1);
+  line-height: 18.13px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+}
+.roomDetails2 {
+  margin: 0;
+  font-size: 11.08px;
+  color: var(--color-gray-500);
+  font-family: var(--font-be-vietnam-pro);
+}
+.aVarietyOfContainer,
+.specialRoom {
+  position: absolute;
+  left: 27.2px;
+  text-align: left;
+}
+.aVarietyOfContainer {
+  top: 1165.59px;
+  display: inline-block;
+  width: 378.79px;
+  height: 64px;
+  font-size: var(--font-size-mini-1);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-abhaya-libre);
+}
+.specialRoom {
+  top: 1138.39px;
+  letter-spacing: 1.01px;
+  line-height: 17.13px;
+  display: flex;
+  align-items: center;
+  width: 384.84px;
+  height: 27px;
+}
+.screenshot20220426At522 {
+  position: absolute;
+  top: 924.81px;
+  left: 0;
+  width: 431.18px;
+  height: 194.43px;
+  object-fit: cover;
+}
+.bestAvailableRate {
+  margin: 0;
+  text-decoration: underline;
+  line-height: 22.16px;
+}
+.blankLine {
+  margin: 0;
+  font-size: 16.12px;
+}
+.bestAvailableRateContainer {
+  position: absolute;
+  top: 762.62px;
+  left: 26.19px;
+  letter-spacing: 1.01px;
+  display: inline-block;
+  white-space: pre-wrap;
+  text-align: left;
+  width: 375.77px;
+  height: 65px;
+  font-size: 12.09px;
+}
+.averagePerNight {
+  top: 811.98px;
+  left: 26.19px;
+  font-size: 9.07px;
+  line-height: 12.09px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+  width: 174.28px;
+  height: 20px;
+}
+.averagePerNight,
+.averagePerNight1,
+.bestAvailableRateContainer1 {
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+}
+.bestAvailableRateContainer1 {
+  top: 1237.11px;
+  left: 31.23px;
+  font-size: 12.09px;
+  text-decoration: underline;
+  letter-spacing: 1.01px;
+  line-height: 22.16px;
+  width: 375.77px;
+  height: 65px;
+}
+.averagePerNight1 {
+  top: 1291px;
+  left: 28px;
+  font-size: 9.07px;
+  line-height: 12.09px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+  width: 174.28px;
+  height: 20px;
+}
+.screenshot20220427At515 {
+  position: absolute;
+  top: 163px;
+  left: 2px;
+  width: 413px;
+  height: 139px;
+  object-fit: cover;
+}
+.iconLeft {
+  position: relative;
+  width: 16.12px;
+  height: 16.12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  font-size: 11.08px;
+  letter-spacing: 1.01px;
+  line-height: 24.18px;
+  font-weight: 600;
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--ink-06);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 8.059378623962402px 16.118757247924805px;
+  background-color: var(--color-black);
+  position: absolute;
+  height: 2.12%;
+  top: 18.13%;
+  bottom: 79.75%;
+  left: calc(50% - 26.63px);
+  border-radius: 3.02px;
+  width: 76.56px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 10.07px;
+}
+.bed1Container,
+.bedAvailable,
+.upTo3 {
+  position: absolute;
+  top: 27.1px;
+  left: 36.47px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.bedAvailable,
+.upTo3 {
+  top: 30.12px;
+  left: 130.23px;
+  display: inline-block;
+  width: 83.62px;
+  height: 6px;
+}
+.bedAvailable {
+  top: 35.16px;
+  left: 22.36px;
+  height: 5px;
+}
+.bedOccupancyIcon,
+.guestsIcon {
+  position: absolute;
+  height: 62%;
+  width: 12.45%;
+  top: 0;
+  right: 87.55%;
+  bottom: 38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.guestsIcon {
+  height: 81.1%;
+  width: 100%;
+  right: 0;
+  bottom: 18.9%;
+}
+.headline {
+  position: absolute;
+  height: 19.3%;
+  width: 82.2%;
+  top: 80.7%;
+  left: 8.65%;
+  line-height: 28.21px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #747268;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: none;
+}
+.profile {
+  position: absolute;
+  top: 12.99px;
+  left: 115.12px;
+  width: 26.19px;
+  height: 32.24px;
+  font-size: 9.07px;
+}
+.bed1ExtraParent,
+.upTo3GuestsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 213.85px;
+  height: 45.23px;
+}
+.bed1ExtraParent {
+  top: 819.01px;
+  left: -8px;
+  font-size: 6.04px;
+}
+.cribAvailable,
+.queenBeds,
+.to4Guests {
+  font-size: 6.04px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.queenBeds {
+  position: absolute;
+  top: 1319px;
+  left: 28px;
+}
+.cribAvailable,
+.to4Guests {
+  display: inline-block;
+  width: 83.62px;
+}
+.to4Guests {
+  position: absolute;
+  top: 1326px;
+  left: 127px;
+  height: 6px;
+}
+.cribAvailable {
+  top: 1334px;
+  left: 17px;
+  height: 5px;
+}
+.aug,
+.cribAvailable,
+.profile1 {
+  position: absolute;
+}
+.profile1 {
+  top: 1308px;
+  left: 107px;
+  width: 26.19px;
+  height: 32.24px;
+  font-size: 9.07px;
+}
+.aug {
+  height: 61.45%;
+  width: 100%;
+  top: 38.1%;
+  left: 0;
+  text-decoration: underline;
+  letter-spacing: 1.01px;
+  line-height: 22.16px;
+  font-weight: 500;
+  display: inline-block;
+}
+.span3 {
+  font-size: 12.09px;
+  font-family: var(--font-be-vietnam-pro);
+}
+.checkIn {
+  position: absolute;
+  height: 30.72%;
+  width: 91.3%;
+  top: 0;
+  left: 0;
+  line-height: 12.09px;
+  color: var(--color-dimgray-500);
+  display: inline-block;
+  font-size: var(--font-size-sm-1);
+  font-family: var(--font-abhaya-libre);
+}
+.component109 {
+  position: absolute;
+  top: 325.4px;
+  left: 30.22px;
+  width: 69.51px;
+  height: 42.31px;
+  text-align: left;
+}
+.checkOut {
+  position: absolute;
+  height: 47.27%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-sm-1);
+  line-height: 12.09px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+  display: inline-block;
+}
+.component110 {
+  position: absolute;
+  top: 325.4px;
+  left: 122.98px;
+  width: 61.45px;
+  height: 42.31px;
+}
+.room2Guests,
+.roomGuest {
+  position: absolute;
+  display: inline-block;
+}
+.room2Guests {
+  height: 63.42%;
+  width: 190.79%;
+  top: 44.44%;
+  left: -90.79%;
+  text-decoration: underline;
+  letter-spacing: 1.01px;
+  line-height: 22.16px;
+  font-weight: 500;
+}
+.roomGuest {
+  height: 35.85%;
+  width: 102.63%;
+  top: 0;
+  left: -2.63%;
+  font-size: var(--font-size-sm-1);
+  line-height: 12.09px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+}
+.component113 {
+  position: absolute;
+  top: 325.4px;
+  left: 298.4px;
+  width: 76.56px;
+  height: 36.27px;
+  text-align: right;
+}
+.image18Icon,
+.image19Icon {
+  position: absolute;
+  top: 715px;
+  left: 336px;
+  width: 46px;
+  height: 34px;
+  object-fit: cover;
+}
+.image19Icon {
+  top: 1145px;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 1.01px;
+  line-height: 24.18px;
+  font-weight: 600;
+}
+.button1 {
+  border-radius: 3.02px;
+  background-color: var(--color-black);
+  width: 93.69px;
+  height: 48.24px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.059378623962402px 16.118757247924805px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 10.07px;
+}
+.buttonContainer,
+.buttonWrapper {
+  position: absolute;
+  top: 753.82px;
+  left: 262.65px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm-1);
+  color: var(--ink-06);
+}
+.buttonContainer {
+  top: 1233px;
+  left: 263px;
+}
+.homePageHeaderChild {
+  position: absolute;
+  height: 153.77%;
+  width: 100%;
+  top: -15.09%;
+  right: 0;
+  bottom: -38.68%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.taj {
+  margin: 0;
+}
+.tajHotel {
+  position: absolute;
+  height: 42.14%;
+  top: 28.93%;
+  left: calc(50% - 123.59px);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 211px;
+}
+.homePageHeader {
+  position: absolute;
+  top: 15.11px;
+  left: 0;
+  width: 431.18px;
+  height: 106.79px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--components-button-default);
+}
+.div,
+.hotelPageChild {
+  position: absolute;
+  top: 58.43px;
+  left: 347.77px;
+  width: 30.22px;
+  height: 30.22px;
+  display: none;
+}
+.div {
+  top: 130.96px;
+  left: 0;
+  font-size: 10.07px;
+  letter-spacing: 1.01px;
+  line-height: 16.12px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 430.17px;
+  height: 24px;
+}
+.arrowLeftIcon {
+  position: absolute;
+  top: 62.46px;
+  left: 18.13px;
+  width: 33.24px;
+  height: 30.22px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hotelPage {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 1433px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 16.12px;
+  color: var(--color-gray-400);
+  font-family: var(--font-be-vietnam-pro);
+}

@@ -1,0 +1,440 @@
+.rwcriFacadeByNight12WideIcon,
+.searchLocationAndDateChild {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 428px;
+  height: 304px;
+  display: none;
+}
+.rwcriFacadeByNight12WideIcon {
+  top: -12px;
+  height: 938px;
+  object-fit: cover;
+}
+.navigationIcon {
+  top: 833px;
+  left: 0;
+  width: 428px;
+  height: 93px;
+}
+.exploreChild,
+.headline,
+.navigationIcon {
+  position: absolute;
+  display: none;
+}
+.exploreChild {
+  height: 61.39%;
+  width: 82.56%;
+  top: 0;
+  right: 7.09%;
+  bottom: 38.61%;
+  left: 10.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headline {
+  height: 28.21%;
+  width: 124.14%;
+  top: 71.79%;
+  left: -6.9%;
+  line-height: 28px;
+}
+.explore {
+  top: 853px;
+  left: 38px;
+  width: 29px;
+  height: 39px;
+  text-align: center;
+  color: var(--color-dimgray-400);
+}
+.bedOccupancyIcon,
+.explore,
+.headline1 {
+  position: absolute;
+  display: none;
+}
+.bedOccupancyIcon {
+  height: 81.36%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 18.64%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headline1 {
+  height: 18.64%;
+  width: 93.75%;
+  top: 81.36%;
+  left: 4.17%;
+  line-height: 28px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #747268;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bookings {
+  top: 833px;
+  left: 123px;
+  width: 48px;
+  height: 59px;
+  text-align: center;
+}
+.bookings,
+.headline2,
+.vectorIcon {
+  position: absolute;
+  display: none;
+}
+.vectorIcon {
+  height: 61.54%;
+  width: 68.42%;
+  top: 0;
+  right: 15.79%;
+  bottom: 38.46%;
+  left: 15.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headline2 {
+  height: 28.21%;
+  width: 100%;
+  top: 71.79%;
+  left: 0;
+  line-height: 28px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #747268;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wishlist {
+  top: 853px;
+  left: 228px;
+  width: 38px;
+  height: 39px;
+  text-align: center;
+}
+.guestsIcon,
+.headline3,
+.wishlist {
+  position: absolute;
+  display: none;
+}
+.guestsIcon {
+  height: 81.1%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 18.9%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headline3 {
+  height: 19.3%;
+  width: 82.2%;
+  top: 80.7%;
+  left: 8.65%;
+  line-height: 28px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #747268;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile {
+  position: absolute;
+  top: 835px;
+  left: 317px;
+  width: 46.23px;
+  height: 57px;
+  text-align: center;
+}
+.groupChild {
+  background-color: var(--color-mistyrose);
+}
+.groupChild,
+.groupWrapper,
+.searchLocationAndDateInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 334px;
+  height: 47px;
+}
+.searchLocationAndDateInner {
+  top: 244px;
+  left: 41px;
+  cursor: pointer;
+}
+.fri18Aug {
+  position: absolute;
+  height: 4.1%;
+  width: 71.5%;
+  top: 32.72%;
+  left: 13.32%;
+  font-size: var(--font-size-sm);
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.searchLocationAndDateItem {
+  position: absolute;
+  top: 191.5px;
+  left: 41px;
+  width: 334px;
+  height: 1px;
+}
+.groupDiv,
+.room2Guests,
+.searchLocationAndDateChild1 {
+  position: absolute;
+  top: 195.5px;
+  left: 41px;
+  width: 334px;
+  height: 1px;
+}
+.groupDiv,
+.room2Guests {
+  top: 331px;
+  left: 39px;
+  height: 47px;
+}
+.room2Guests {
+  height: 4.1%;
+  width: 71.5%;
+  top: 43.4%;
+  left: 13.32%;
+  font-size: var(--font-size-sm);
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.ind,
+.searchLocationAndDateInner1 {
+  position: absolute;
+  top: 422px;
+  left: 39px;
+  width: 334px;
+  height: 47px;
+}
+.ind {
+  height: 4.1%;
+  width: 71.5%;
+  top: 54.35%;
+  left: 14.53%;
+  font-size: var(--font-size-sm);
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.component20Icon {
+  position: absolute;
+  height: 2.07%;
+  width: 3.76%;
+  top: 21.55%;
+  right: 49.04%;
+  bottom: 76.38%;
+  left: 47.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.location1 {
+  margin: 0;
+}
+.dates,
+.location {
+  position: absolute;
+  height: 2.16%;
+  width: 19.63%;
+  top: 16.36%;
+  left: 9.93%;
+  font-size: var(--font-size-xs);
+  line-height: 20.5px;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.dates {
+  top: 27.97%;
+  left: 10.41%;
+}
+.calendarIcon,
+.searchLocationAndDateChild2 {
+  position: absolute;
+  top: 290.5px;
+  left: 43px;
+  width: 334px;
+  height: 1px;
+}
+.calendarIcon {
+  height: 1.84%;
+  width: 3.97%;
+  top: 28.23%;
+  right: 74.72%;
+  bottom: 69.93%;
+  left: 21.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.roomGuest {
+  position: absolute;
+  height: 2.16%;
+  width: 25.7%;
+  top: 38.79%;
+  left: 10.41%;
+  font-size: var(--font-size-xs);
+  line-height: 20.5px;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.currency,
+.searchLocationAndDateChild3 {
+  position: absolute;
+  top: 377.5px;
+  left: 39px;
+  width: 334px;
+  height: 1px;
+}
+.currency {
+  height: 2.16%;
+  width: 25.7%;
+  top: 50.13%;
+  left: 10.41%;
+  font-size: var(--font-size-xs);
+  line-height: 20.5px;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.searchLocationAndDateChild4 {
+  position: absolute;
+  top: 468.5px;
+  left: 37px;
+  width: 334px;
+  height: 1px;
+}
+.iconLeft {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  position: absolute;
+  height: 5.94%;
+  width: 86.45%;
+  top: 91.79%;
+  right: 6.78%;
+  bottom: 2.27%;
+  left: 6.78%;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--ink-06);
+}
+.searchLocationAndDateInner2 {
+  position: absolute;
+  top: 149px;
+  left: 39px;
+  width: 334px;
+  height: 47px;
+  cursor: pointer;
+}
+.tajHotel {
+  position: absolute;
+  height: 3.78%;
+  width: 70.79%;
+  top: 20.32%;
+  left: 13.32%;
+  font-size: var(--font-size-sm);
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 1.27%;
+  width: 1.55%;
+  top: 55.84%;
+  right: 18.25%;
+  bottom: 42.89%;
+  left: 80.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  top: 22.86%;
+  right: 20.67%;
+  bottom: 75.87%;
+  left: 77.78%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  top: 33.15%;
+  right: 19.46%;
+  bottom: 65.58%;
+  left: 78.99%;
+}
+.vectorIcon4 {
+  top: 44.36%;
+  right: 18.74%;
+  bottom: 54.37%;
+  left: 79.71%;
+}
+.vectorIcon5 {
+  position: relative;
+  width: 8.75px;
+  height: 14.75px;
+}
+.vector {
+  position: absolute;
+  top: 65px;
+  left: 18px;
+  background-color: var(--ink-06);
+  width: 31px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.searchLocationAndDate {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-be-vietnam-pro);
+}

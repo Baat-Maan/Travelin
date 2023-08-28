@@ -1,0 +1,151 @@
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+}
+.vectorIcon {
+  position: absolute;
+  height: 2.71%;
+  width: 6.67%;
+  top: 9.48%;
+  right: 87.73%;
+  bottom: 87.81%;
+  left: 5.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.faSolidparkingIcon,
+.gridiconsLocation {
+  position: absolute;
+  top: 341px;
+  left: 178px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.faSolidparkingIcon {
+  top: 356px;
+  left: 263px;
+  width: 28px;
+  height: 32px;
+}
+.image31Icon,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image31Icon {
+  width: 831px;
+  height: 831px;
+  object-fit: cover;
+}
+.rectangle {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
+}
+.parkingALekki {
+  position: absolute;
+  height: calc(100% - 28px);
+  width: calc(100% - 156px);
+  top: 14px;
+  left: 52px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.eiCloseIcon,
+.gridiconsLocation1 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.eiCloseIcon {
+  top: 20px;
+  left: 297px;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+.buttonprimarydefault {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 99px;
+  right: 10px;
+  left: 22px;
+  height: 56px;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+}
+.navigate {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+  font-family: var(--font-open-sans);
+}

@@ -1,0 +1,231 @@
+.additions,
+.frameChild {
+  position: absolute;
+  width: 100%;
+}
+.frameChild {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mistyrose);
+}
+.additions {
+  height: 33.54%;
+  top: 29.19%;
+  left: -7.24%;
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameItem {
+  position: absolute;
+  height: 0.76%;
+  width: 91.59%;
+  top: 99.62%;
+  right: 4.21%;
+  bottom: -0.38%;
+  left: 4.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  position: relative;
+  width: 8.75px;
+  height: 14.75px;
+}
+.vector {
+  position: absolute;
+  height: 16.77%;
+  width: 7.24%;
+  top: 39.75%;
+  right: 88.55%;
+  bottom: 43.48%;
+  left: 4.21%;
+  background-color: var(--color-mistyrose);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 194.5px);
+  width: 428px;
+  height: 131px;
+  font-size: var(--font-size-xl);
+}
+.image20Icon {
+  position: absolute;
+  height: 7.05%;
+  width: 13.08%;
+  top: 18.46%;
+  right: 82.31%;
+  bottom: 74.49%;
+  left: 4.62%;
+  border-radius: var(--br-81xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.shrutiDua1 {
+  margin: 0;
+  font-weight: 600;
+}
+.shrutiDuaTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.shrutiDua {
+  position: absolute;
+  top: 173px;
+  left: 16px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  width: 266px;
+  height: 35px;
+  font-size: var(--font-size-lg);
+}
+.bookingsChild,
+.myBookings {
+  position: absolute;
+  top: 212px;
+  left: 18px;
+  width: 345px;
+  height: 2px;
+}
+.myBookings {
+  top: 228px;
+  left: 12px;
+  font-size: var(--components-large-size);
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 26px;
+}
+.image21Icon {
+  position: absolute;
+  top: 282px;
+  left: 29px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.completedWed {
+  top: 268px;
+  left: 95px;
+  font-size: var(--font-size-xs);
+  font-weight: 200;
+  width: 192px;
+  height: 35px;
+}
+.completedWed,
+.completedWed1,
+.mumbaiDelhi {
+  position: absolute;
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.completedWed1 {
+  top: 345px;
+  left: 95px;
+  font-size: var(--font-size-xs);
+  font-weight: 200;
+  width: 192px;
+  height: 35px;
+}
+.mumbaiDelhi {
+  top: 290px;
+  left: 88px;
+  width: 174px;
+  height: 27px;
+}
+.image22Icon {
+  position: absolute;
+  top: 357px;
+  left: 29px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.adults {
+  position: absolute;
+  top: 374px;
+  left: 69px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 22px;
+}
+.indigo {
+  top: 327px;
+  left: 26px;
+  font-size: var(--font-size-3xs);
+  font-weight: 100;
+  width: 46px;
+  height: 7px;
+}
+.bookingHistory,
+.indigo,
+.tajHotels {
+  position: absolute;
+  letter-spacing: 1px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tajHotels {
+  top: 402px;
+  left: 20px;
+  font-size: var(--font-size-3xs);
+  font-weight: 100;
+  width: 66px;
+  height: 7px;
+}
+.bookingHistory {
+  top: 439px;
+  left: 17px;
+  font-weight: 300;
+  width: 208px;
+  height: 29px;
+}
+.image25Icon {
+  position: absolute;
+  top: 444px;
+  left: 31px;
+  width: 22px;
+  height: 20px;
+  object-fit: cover;
+}
+.bookings {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 777px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-be-vietnam-pro);
+}

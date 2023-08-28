@@ -1,0 +1,346 @@
+.image4Icon {
+  position: absolute;
+  top: -113px;
+  left: -133px;
+  width: 1264px;
+  height: 998px;
+  object-fit: cover;
+  display: none;
+}
+.backgroundIcon,
+.paginationlightIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.paginationlightIcon {
+  height: 2.34%;
+  top: 88.67%;
+  bottom: 8.99%;
+}
+.backgroundIcon {
+  height: calc(100% + 0.07px);
+  top: 0;
+  bottom: -0.07px;
+}
+.action1,
+.action2 {
+  position: absolute;
+  top: 12px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.action1 {
+  left: 16px;
+  width: 41px;
+}
+.action2 {
+  right: 16px;
+  color: var(--color-blueviolet-100);
+  text-align: right;
+  width: 44px;
+}
+.toolbarsIphone8textOnly,
+.toolbarsiphoneXtextOnly2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toolbarsiphoneXtextOnly2 {
+  height: 10.22%;
+  top: 87.19%;
+  bottom: 2.59%;
+  display: none;
+  font-size: var(--font-size-mid);
+  color: var(--color-blueviolet-200);
+}
+.icRoundDirectionsCarIcon,
+.icRoundDirectionsCarIcon1,
+.icRoundDirectionsCarIcon2 {
+  position: absolute;
+  height: 3.45%;
+  width: 7.47%;
+  top: 62.07%;
+  right: 12.53%;
+  bottom: 34.48%;
+  left: 80%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icRoundDirectionsCarIcon1,
+.icRoundDirectionsCarIcon2 {
+  top: 45.57%;
+  right: 13.6%;
+  bottom: 50.99%;
+  left: 78.93%;
+}
+.icRoundDirectionsCarIcon2 {
+  top: 53.82%;
+  bottom: 42.73%;
+}
+.c,
+.rectangle {
+  position: absolute;
+}
+.c {
+  top: 506px;
+  left: 475px;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+}
+.rectangle {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
+}
+.yourBookings {
+  position: absolute;
+  height: calc(100% - 21.6px);
+  width: calc(100% - 216px);
+  top: -16.2px;
+  left: 13px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  position: absolute;
+  height: calc(100% - 755px);
+  width: calc(100% - 32px);
+  top: 121px;
+  right: 11px;
+  bottom: 634px;
+  left: 21px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back {
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--ink-06);
+  box-shadow: var(--purple-button-shadow);
+}
+.bookedLocation {
+  height: calc(100% - 297px);
+  width: calc(100% - 188px);
+  top: 19px;
+  left: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.bookedLocation,
+.bookedSlot,
+.parkingSession {
+  position: absolute;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.bookedSlot {
+  height: calc(100% - 297px);
+  width: calc(100% - 188px);
+  top: 59px;
+  left: 4px;
+  text-align: center;
+  justify-content: center;
+}
+.parkingSession {
+  height: calc(100% - 296.56px);
+  width: calc(100% - 208px);
+  top: 123px;
+  left: 13px;
+}
+.lekkiGardens {
+  margin: 0;
+}
+.lekkiGardensCarContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.lekkiGardensCarContainer,
+.parkASlotContainer {
+  position: absolute;
+  height: calc(100% - 296.56px);
+  width: calc(100% - 146px);
+  top: 27px;
+  left: 105px;
+  letter-spacing: 0.1px;
+  line-height: 17px;
+  white-space: pre-wrap;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.parkASlotContainer {
+  top: 67px;
+}
+.checkInTime {
+  position: absolute;
+  width: calc(100% - 204px);
+  top: 178px;
+  left: 21px;
+}
+.am,
+.checkInTime,
+.checkOutTime {
+  height: calc(100% - 296.56px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.am {
+  position: absolute;
+  width: calc(100% - 255px);
+  top: 179.56px;
+  left: 209px;
+  font-weight: 600;
+}
+.checkOutTime {
+  width: calc(100% - 204px);
+  top: 209.68px;
+  left: 20px;
+}
+.checkOutTime,
+.groupChild,
+.pm {
+  position: absolute;
+}
+.pm {
+  height: calc(100% - 296.56px);
+  width: calc(100% - 255px);
+  top: 209.68px;
+  left: 209px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.groupChild {
+  top: 97.5px;
+  left: 10.5px;
+  border-top: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 299px;
+  height: 1px;
+}
+.rectangleGroup {
+  position: absolute;
+  height: calc(100% - 483px);
+  width: calc(100% - 32px);
+  top: 175px;
+  right: 16px;
+  bottom: 308px;
+  left: 16px;
+}
+.vehicleNumber {
+  position: absolute;
+  height: calc(100% - 780px);
+  width: calc(100% - 76px);
+  top: 427px;
+  left: 34px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.rectangle2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  box-shadow: var(--purple-button-shadow);
+}
+.navigateNow {
+  position: absolute;
+  height: calc(100% - 28px);
+  width: calc(100% - 40px);
+  top: 14px;
+  left: 20px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonprimarydefault {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 491px;
+  right: 16px;
+  left: 16px;
+  height: 41px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--ink-06);
+}
+.prevBookings {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

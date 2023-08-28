@@ -1,0 +1,244 @@
+.deliveryBillChild {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: var(--ink-06);
+  width: 428px;
+  height: 91px;
+}
+.sendParcel {
+  position: absolute;
+  top: 79px;
+  left: 56px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 149px;
+  height: 22px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.38%;
+  width: 43.79%;
+  top: 8.33%;
+  right: 29.29%;
+  bottom: 8.29%;
+  left: 26.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.backChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.back {
+  position: absolute;
+  top: 80px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+}
+.deliveryBillItem {
+  position: absolute;
+  top: 136px;
+  left: -1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mistyrose);
+  border: 2px solid var(--ink-06);
+  box-sizing: border-box;
+  width: 396px;
+  height: 156px;
+}
+.package,
+.pleaseEnsureThat {
+  position: absolute;
+  top: 197px;
+  left: 56px;
+  display: inline-block;
+  width: 219px;
+  height: 64px;
+}
+.package {
+  top: 159px;
+  font-weight: 500;
+  width: 194px;
+  height: 23px;
+}
+.deliveryBillInner {
+  position: absolute;
+  top: 339.7px;
+  left: 15.7px;
+  border-top: 0.6px solid var(--color-mistyrose);
+  box-sizing: border-box;
+  width: 396.6px;
+  height: 0.6px;
+}
+.groupIcon {
+  position: absolute;
+  top: 171px;
+  left: 299px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.groupChild,
+.pay {
+  position: absolute;
+  left: 0;
+  width: 194px;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-mediumblue);
+  height: 44px;
+}
+.pay {
+  top: 12px;
+  display: inline-block;
+  height: 21px;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  width: 194px;
+  height: 44px;
+}
+.rectangleParent {
+  top: 847px;
+  left: 218px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--ink-06);
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+}
+.amount,
+.rectangleGroup {
+  position: absolute;
+  left: 16px;
+  width: 194px;
+}
+.rectangleGroup {
+  top: 847px;
+  height: 44px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-mediumblue);
+}
+.amount {
+  top: 358px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+}
+.volunteerFees {
+  margin: 0;
+}
+.hdfcergo {
+  color: var(--color-red-200);
+}
+.delivery {
+  margin-bottom: 0;
+}
+.deliveryInsuranceServiceTyp {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  padding-left: var(--padding-base);
+}
+.volunteerFeesPorterContainer {
+  position: absolute;
+  top: 396px;
+  left: 17px;
+  line-height: 21px;
+  display: inline-block;
+  width: 251px;
+  height: 178px;
+  font-size: var(--font-size-sm);
+}
+.p2,
+.rs1 {
+  margin: 0;
+  font-size: var(--font-size-xs);
+}
+.rs1 {
+  font-size: var(--font-size-5xl);
+}
+.rs {
+  position: absolute;
+  top: 396px;
+  left: 242px;
+  line-height: 21px;
+  text-align: right;
+  display: inline-block;
+  width: 113px;
+  height: 174px;
+  font-size: var(--font-size-sm);
+}
+.iconLeft {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button,
+.lineDiv {
+  position: absolute;
+  box-sizing: border-box;
+}
+.button {
+  height: 7.45%;
+  top: 84.31%;
+  bottom: 8.24%;
+  left: calc(50% - 184.5px);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-black);
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--ink-06);
+  font-family: var(--font-be-vietnam-pro);
+}
+.lineDiv {
+  top: 909.5px;
+  left: 135.5px;
+  border-top: 5px solid var(--color-black);
+  width: 157px;
+  height: 5px;
+}
+.deliveryBill {
+  position: relative;
+  background-color: var(--ink-06);
+  width: 100%;
+  height: 782px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--components-large-size);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
