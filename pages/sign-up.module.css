@@ -103,7 +103,7 @@
   height: 59px;
   overflow: hidden;
   font-size: var(--font-size-xl);
-  color: var(--white);
+  color: var(--ink-06);
 }
 .signUpChild,
 .signUpContainer,
@@ -120,12 +120,12 @@
   overflow: hidden;
   cursor: pointer;
   font-size: var(--font-size-xl);
-  color: var(--white);
+  color: var(--ink-06);
 }
 .signUpChild {
   border: 0;
   display: block;
-  font-family: var(--font-mplus-1p-bold);
+  font-family: var(--font-source-sans-pro);
   font-size: var(--font-size-smi);
   background-color: var(--color-mistyrose);
   top: 412px;
@@ -188,5 +188,5 @@
   text-align: center;
   font-size: var(--font-size-smi);
   color: var(--color-black);
-  font-family: var(--font-mplus-1p-bold);
+  font-family: var(--font-source-sans-pro);
 }

@@ -13,11 +13,11 @@ const SendParcelHome: NextPage = () => {
     router.push("/home");
   }, [router]);
 
-  const onRectangleButtonClick = useCallback(() => {
+  const onRectangle3Click = useCallback(() => {
     router.push("/drop-off");
   }, [router]);
 
-  const onRectangleButton1Click = useCallback(() => {
+  const onRectangle4Click = useCallback(() => {
     router.push("/drop-off");
   }, [router]);
 
@@ -49,13 +49,10 @@ const SendParcelHome: NextPage = () => {
         recieved.
       </div>
       <div className={styles.package}>Package</div>
-      <button
-        className={styles.rectangleButton}
-        onClick={onRectangleButtonClick}
-      />
-      <button
+      <div className={styles.rectangleDiv} onClick={onRectangle3Click} />
+      <div
         className={styles.sendParcelHomeChild1}
-        onClick={onRectangleButton1Click}
+        onClick={onRectangle4Click}
       />
       <div className={styles.pickUpDetails}>Pick-up details</div>
       <div className={styles.dropOffLoaction}>Drop-off loaction</div>

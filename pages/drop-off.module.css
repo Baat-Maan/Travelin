@@ -24,7 +24,7 @@
   position: absolute;
   top: 831px;
   left: 0;
-  background-color: var(--white);
+  background-color: var(--ink-06);
   width: 428px;
   height: 95px;
 }
@@ -162,7 +162,7 @@
   top: 0;
   left: 0;
   border-radius: 22.5px;
-  background-color: var(--white);
+  background-color: var(--ink-06);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   width: 216px;
   height: 37px;
@@ -217,7 +217,7 @@
 .volunteerButtonChild,
 .volunteerButtonItem {
   position: absolute;
-  background-color: var(--white);
+  background-color: var(--ink-06);
 }
 .volunteerButtonChild {
   top: 0;
@@ -322,7 +322,7 @@
 }
 .dropOff {
   position: relative;
-  background-color: var(--white);
+  background-color: var(--ink-06);
   width: 100%;
   height: 782px;
   overflow: hidden;

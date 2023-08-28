@@ -6,7 +6,7 @@ const NoParkingSlotSelected: NextPage = () => {
   const router = useRouter();
 
   const onEiCloseIconClick = useCallback(() => {
-    router.push("/");
+    router.push("/view-car-parks");
   }, [router]);
 
   return (

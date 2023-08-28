@@ -1,18 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+SemiBold:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mplus+1p+Bold:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
@@ -21,30 +18,27 @@ body {
 }
 :root {
   /* fonts */
+  --font-source-sans-pro: "Source Sans Pro";
   --font-open-sans: "Open Sans";
   --components-large: Poppins;
   --font-be-vietnam-pro: "Be Vietnam Pro";
   --font-ibm-plex-sans: "IBM Plex Sans";
   --font-abhaya-libre: "Abhaya Libre";
   --components-button-default: Inter;
-  --font-helvetica: Helvetica;
   --font-abril-fatface: "Abril Fatface";
   --font-italiana: Italiana;
-  --font-abhaya-libre-semibold: "Abhaya Libre SemiBold";
   --font-roboto: Roboto;
   --font-jost: Jost;
   --font-kalam: Kalam;
-  --font-mplus-1p-bold: "Mplus 1p Bold";
-  --font-sf-pro-text: "SF Pro Text";
 
   /* font sizes */
+  --font-size-mini: 15px;
   --components-large-size: 16px;
   --font-size-mid: 17px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
   --font-size-xs: 12px;
   --font-size-lg: 18px;
-  --font-size-xl: 20px;
-  --font-size-mini: 15px;
-  --font-size-sm: 14px;
   --font-size-3xl: 22px;
   --font-size-smi: 13px;
   --font-size-5xl: 24px;
@@ -61,18 +55,7 @@ body {
   --font-size-11xl: 30px;
 
   /* Colors */
-  --white: #fff;
-  --color-darkslategray-100: #444;
-  --color-darkslategray-200: #3b414b;
-  --color-darkslategray-300: #3a3a3a;
-  --color-darkslategray-400: #333;
-  --color-darkslategray-500: #2f2f2f;
-  --color-blueviolet-100: #613eea;
-  --color-blueviolet-200: rgba(97, 62, 234, 0.4);
   --color-black: #000;
-  --color-darkgray-100: #979797;
-  --color-darkgray-200: rgba(166, 170, 180, 0.6);
-  --color-slategray: #757f8c;
   --color-gray-100: #fcfcff;
   --color-gray-200: #949494;
   --color-gray-300: #212121;
@@ -82,12 +65,23 @@ body {
   --color-gray-600: #05072c;
   --color-gray-700: rgba(0, 0, 0, 0.54);
   --color-gray-800: rgba(255, 255, 255, 0);
+  --ink-06: #fff;
+  --color-darkslategray-100: #444;
+  --color-darkslategray-200: #3b414b;
+  --color-darkslategray-300: #3a3a3a;
+  --color-darkslategray-400: #333;
+  --color-darkslategray-500: #2f2f2f;
+  --color-blueviolet-100: #613eea;
+  --color-blueviolet-200: rgba(97, 62, 234, 0.4);
   --color-mediumblue: #0a4bff;
   --color-gainsboro-100: #e0e0e0;
   --color-gainsboro-200: #dadada;
   --color-gainsboro-300: #d9d9d9;
   --color-gainsboro-400: #d8d8d8;
   --color-mistyrose: #ecdddc;
+  --color-darkgray-100: #979797;
+  --color-darkgray-200: rgba(166, 170, 180, 0.6);
+  --color-slategray: #757f8c;
   --color-silver-100: #c4c4c4;
   --color-dimgray-100: #747268;
   --color-dimgray-200: #67686c;
@@ -122,11 +116,11 @@ body {
   --padding-112xl: 131px;
 
   /* border radiuses */
-  --br-7xs: 6px;
-  --br-10xs: 3px;
-  --br-3xl: 22px;
   --br-3xs: 10px;
+  --br-7xs: 6px;
   --br-xl: 20px;
+  --br-3xl: 22px;
+  --br-10xs: 3px;
   --br-31xl: 50px;
   --br-116xl: 135px;
   --br-26xl: 45px;

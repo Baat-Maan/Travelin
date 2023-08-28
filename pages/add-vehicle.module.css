@@ -234,13 +234,13 @@
   top: 417px;
   left: 12px;
   border-radius: var(--br-xl);
-  background-color: var(--white);
+  background-color: var(--ink-06);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 375px;
   height: 386px;
   text-align: center;
-  color: var(--white);
+  color: var(--ink-06);
 }
 .vectorIcon {
   height: 83.38%;
@@ -279,7 +279,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-7xs);
-  background-color: var(--white);
+  background-color: var(--ink-06);
   box-shadow: 0 8px 20px rgba(122, 122, 123, 0.32);
 }
 .space4c {
@@ -408,7 +408,7 @@
 }
 .addVehicle {
   position: relative;
-  background-color: var(--white);
+  background-color: var(--ink-06);
   width: 100%;
   height: 782px;
   overflow: hidden;

@@ -10,7 +10,7 @@ const SelectParkingSpaceSensor: NextPage = () => {
   }, [router]);
 
   const onBackContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/view-car-parks");
   }, [router]);
 
   return (
