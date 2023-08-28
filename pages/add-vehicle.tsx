@@ -9,11 +9,11 @@ const AddVehicle: NextPage = () => {
   const router = useRouter();
 
   const onBookTheSlotClick = useCallback(() => {
-    router.push("/../pages/parking-time-exhausted");
+    router.push("/parking-time-exhausted");
   }, [router]);
 
   const onAddVehicleTextClick = useCallback(() => {
-    router.push("/");
+    router.push("/book-space");
   }, [router]);
 
   return (

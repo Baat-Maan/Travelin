@@ -1,81 +1,87 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Form } from "react-bootstrap";
 import { useRouter } from "next/router";
 import styles from "./index.module.css";
-const SendParcelHome: NextPage = () => {
+const ViewCarParks: NextPage = () => {
   const router = useRouter();
 
-  const onGroupImageClick = useCallback(() => {
-    router.push("/activity");
+  const onFaSolidparkingIconClick = useCallback(() => {
+    router.push("/car-park-selected-senspr");
   }, [router]);
 
-  const onBackContainerClick = useCallback(() => {
-    router.push("/home");
-  }, [router]);
-
-  const onRectangleButtonClick = useCallback(() => {
-    router.push("/drop-off");
-  }, [router]);
-
-  const onRectangleButton1Click = useCallback(() => {
-    router.push("/drop-off");
-  }, [router]);
-
-  const onGroupContainerClick = useCallback(() => {
-    router.push("/package-details3");
-  }, [router]);
-
-  const onButtonContainerClick = useCallback(() => {
-    router.push("/package-details3");
+  const onFaSolidparkingIcon3Click = useCallback(() => {
+    router.push("/no-parking-slot-selected");
   }, [router]);
 
   return (
-    <div className={styles.sendParcelHome}>
-      <div className={styles.sendParcelHomeChild} />
-      <b className={styles.sendParcel}>Send Parcel</b>
+    <div className={styles.viewCarParks}>
+      <img className={styles.image4Icon} alt="" src="/image-42@2x.png" />
       <img
-        className={styles.sendParcelHomeItem}
+        className={styles.paginationlightIcon}
         alt=""
-        src="/group-161@2x.png"
-        onClick={onGroupImageClick}
+        src="/paginationlight.svg"
       />
-      <div className={styles.back} onClick={onBackContainerClick}>
-        <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
-        <div className={styles.backChild} />
+      <div className={styles.toolbarsiphoneXtextOnly2}>
+        <div className={styles.toolbarsIphone8textOnly}>
+          <img className={styles.backgroundIcon} alt="" src="/background.svg" />
+          <div className={styles.action1}>SKIP</div>
+          <div className={styles.action2}>NEXT</div>
+        </div>
       </div>
-      <div className={styles.sendParcelHomeInner} />
-      <div className={styles.pleaseEnsureThat}>
-        Please ensure that the package is neatly ppackedand ready to be
-        recieved.
-      </div>
-      <div className={styles.package}>Package</div>
-      <button
-        className={styles.rectangleButton}
-        onClick={onRectangleButtonClick}
+      <Form.Group className={styles.buttonprimarydefaultFormgroup}>
+        <Form.Label>{`Lekki Gardens `}</Form.Label>
+        <Form.Control type="text" placeholder="Lekki Gardens" />
+      </Form.Group>
+      <img className={styles.vectorIcon} alt="" src="/bed-occupancy.svg" />
+      <div className={styles.viewCarParksChild} />
+      <div className={styles.viewCarParksItem} />
+      <img
+        className={styles.gridiconsLocation}
+        alt=""
+        src="/gridiconslocation.svg"
       />
-      <button
-        className={styles.sendParcelHomeChild1}
-        onClick={onRectangleButton1Click}
+      <img
+        className={styles.faSolidparkingIcon}
+        alt=""
+        src="/fasolidparking.svg"
+        onClick={onFaSolidparkingIconClick}
       />
-      <div className={styles.pickUpDetails}>Pick-up details</div>
-      <div className={styles.dropOffLoaction}>Drop-off loaction</div>
-      <div className={styles.lineDiv} />
-      <img className={styles.groupIcon} alt="" src="/group-171@2x.png" />
-      <div className={styles.rectangleParent} onClick={onGroupContainerClick}>
-        <div className={styles.groupChild} />
-        <b className={styles.next}>Next</b>
-      </div>
-      <div className={styles.pickUpLocation}>Pick-up location</div>
-      <div className={styles.pickUpLocation1}>Pick-up location</div>
-      <div className={styles.button} onClick={onButtonContainerClick}>
-        <img className={styles.iconLeft} alt="" src="/icon-left20.svg" />
-        <div className={styles.label}>{`PROCEED `}</div>
-        <img className={styles.iconLeft} alt="" src="/icon-right20.svg" />
-      </div>
-      <img className={styles.lineIcon} alt="" src="/line-4.svg" />
-      <div className={styles.sendParcelHomeChild2} />
+      <img
+        className={styles.faSolidparkingIcon1}
+        alt=""
+        src="/fasolidparking.svg"
+      />
+      <img
+        className={styles.faSolidparkingIcon2}
+        alt=""
+        src="/fasolidparking.svg"
+      />
+      <img
+        className={styles.faSolidparkingIcon3}
+        alt=""
+        src="/fasolidparking1.svg"
+        onClick={onFaSolidparkingIcon3Click}
+      />
+      <img
+        className={styles.faSolidparkingIcon4}
+        alt=""
+        src="/fasolidparking1.svg"
+      />
+      <img
+        className={styles.faSolidparkingIcon5}
+        alt=""
+        src="/fasolidparking2.svg"
+      />
+      <img className={styles.unionIcon} alt="" src="/union.svg" />
+      <img className={styles.unionIcon} alt="" src="/union.svg" />
+      <div className={styles.parkingSpot}> Parking Spot</div>
+      <div className={styles.yourLocation}>Your location</div>
+      <img className={styles.unionIcon} alt="" src="/union.svg" />
+      <div className={styles.noParking}>No Parking</div>
     </div>
   );
 };
 
-export default SendParcelHome;
+export default ViewCarParks;

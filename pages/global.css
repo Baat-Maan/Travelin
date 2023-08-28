@@ -39,10 +39,10 @@ body {
 
   /* font sizes */
   --components-large-size: 16px;
+  --font-size-mid: 17px;
   --font-size-xs: 12px;
   --font-size-lg: 18px;
   --font-size-xl: 20px;
-  --font-size-mid: 17px;
   --font-size-mini: 15px;
   --font-size-sm: 14px;
   --font-size-3xl: 22px;
@@ -62,14 +62,16 @@ body {
 
   /* Colors */
   --white: #fff;
-  --color-black: #000;
-  --color-darkgray-100: #979797;
-  --color-darkgray-200: rgba(166, 170, 180, 0.6);
   --color-darkslategray-100: #444;
   --color-darkslategray-200: #3b414b;
   --color-darkslategray-300: #3a3a3a;
   --color-darkslategray-400: #333;
   --color-darkslategray-500: #2f2f2f;
+  --color-blueviolet-100: #613eea;
+  --color-blueviolet-200: rgba(97, 62, 234, 0.4);
+  --color-black: #000;
+  --color-darkgray-100: #979797;
+  --color-darkgray-200: rgba(166, 170, 180, 0.6);
   --color-slategray: #757f8c;
   --color-gray-100: #fcfcff;
   --color-gray-200: #949494;
@@ -80,8 +82,6 @@ body {
   --color-gray-600: #05072c;
   --color-gray-700: rgba(0, 0, 0, 0.54);
   --color-gray-800: rgba(255, 255, 255, 0);
-  --color-blueviolet-100: #613eea;
-  --color-blueviolet-200: rgba(97, 62, 234, 0.4);
   --color-mediumblue: #0a4bff;
   --color-gainsboro-100: #e0e0e0;
   --color-gainsboro-200: #dadada;

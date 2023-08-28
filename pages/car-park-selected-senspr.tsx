@@ -6,7 +6,7 @@ const CarParkSelectedSenspr: NextPage = () => {
   const router = useRouter();
 
   const onEiCloseIconClick = useCallback(() => {
-    router.push("/view-car-parks");
+    router.push("/");
   }, [router]);
 
   const onButtonprimarydefaultContainer1Click = useCallback(() => {

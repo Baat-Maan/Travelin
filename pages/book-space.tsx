@@ -3,16 +3,16 @@ import { useCallback } from "react";
 import "antd/dist/antd.min.css";
 import { Slider } from "antd";
 import { useRouter } from "next/router";
-import styles from "./index.module.css";
+import styles from "./book-space.module.css";
 const BookSpace: NextPage = () => {
   const router = useRouter();
 
   const onButtonprimarydefaultContainerClick = useCallback(() => {
-    router.push("/../pages/add-vehicle");
+    router.push("/add-vehicle");
   }, [router]);
 
   const onBookTheSlotClick = useCallback(() => {
-    router.push("/../pages/parking-time-exhausted");
+    router.push("/parking-time-exhausted");
   }, [router]);
 
   return (

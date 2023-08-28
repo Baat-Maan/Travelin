@@ -12,7 +12,7 @@ const Parking: NextPage = () => {
   }, [router]);
 
   const onButtonContainerClick = useCallback(() => {
-    router.push("/view-car-parks");
+    router.push("/");
   }, [router]);
 
   const onCloseIconClick = useCallback(() => {

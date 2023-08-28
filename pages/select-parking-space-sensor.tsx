@@ -6,11 +6,11 @@ const SelectParkingSpaceSensor: NextPage = () => {
   const router = useRouter();
 
   const onButtonprimarydefaultContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/book-space");
   }, [router]);
 
   const onBackContainerClick = useCallback(() => {
-    router.push("/view-car-parks");
+    router.push("/");
   }, [router]);
 
   return (
