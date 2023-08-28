@@ -6,7 +6,7 @@ const SelectParkingSpaceSensor: NextPage = () => {
   const router = useRouter();
 
   const onButtonprimarydefaultContainerClick = useCallback(() => {
-    router.push("/../components/book-space");
+    router.push("/");
   }, [router]);
 
   const onBackContainerClick = useCallback(() => {

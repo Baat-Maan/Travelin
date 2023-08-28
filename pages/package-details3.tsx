@@ -7,7 +7,7 @@ const PackageDetails3: NextPage = () => {
   const router = useRouter();
 
   const onGroupContainer1Click = useCallback(() => {
-    router.push("/");
+    router.push("/send-parcel-home");
   }, [router]);
 
   const onButtonContainerClick = useCallback(() => {

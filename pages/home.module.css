@@ -196,7 +196,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 375px;
   height: 780px;
   overflow: hidden;

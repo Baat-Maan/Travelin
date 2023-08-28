@@ -13,7 +13,7 @@ const AddVehicle: NextPage = () => {
   }, [router]);
 
   const onAddVehicleTextClick = useCallback(() => {
-    router.push("/../components/book-space");
+    router.push("/");
   }, [router]);
 
   return (

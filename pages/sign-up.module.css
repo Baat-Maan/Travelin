@@ -103,7 +103,7 @@
   height: 59px;
   overflow: hidden;
   font-size: var(--font-size-xl);
-  color: var(--ink-06);
+  color: var(--white);
 }
 .signUpChild,
 .signUpContainer,
@@ -120,7 +120,7 @@
   overflow: hidden;
   cursor: pointer;
   font-size: var(--font-size-xl);
-  color: var(--ink-06);
+  color: var(--white);
 }
 .signUpChild {
   border: 0;

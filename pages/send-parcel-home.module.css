@@ -79,8 +79,43 @@
   width: 194px;
   height: 23px;
 }
-.rectangleButton,
-.sendParcelHomeChild1 {
+.averagePerNight1 {
+  top: 1291px;
+  left: 28px;
+  font-size: 9.07px;
+  line-height: 12.09px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-dimgray-500);
+  width: 174.28px;
+  height: 20px;
+}
+.screenshot20220427At515 {
+  position: absolute;
+  top: 163px;
+  left: 2px;
+  width: 413px;
+  height: 139px;
+  object-fit: cover;
+}
+.iconLeft {
+  position: relative;
+  width: 16.12px;
+  height: 16.12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  font-size: 11.08px;
+  letter-spacing: 1.01px;
+  line-height: 24.18px;
+  font-weight: 600;
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--white);
+  text-align: center;
+}
+.button {
   cursor: pointer;
   border: 0.6px solid var(--color-darkslategray-500);
   padding: 0;
@@ -206,10 +241,15 @@
 }
 .lineIcon {
   position: absolute;
-  top: 720px;
-  left: 17px;
-  width: 345px;
-  height: 2px;
+  top: 753.82px;
+  left: 262.65px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm-1);
+  color: var(--white);
 }
 .sendParcelHomeChild2 {
   position: absolute;
@@ -220,9 +260,21 @@
   width: 157px;
   height: 5px;
 }
-.sendParcelHome {
-  position: relative;
-  background-color: var(--ink-06);
+.buttonContainer {
+  position: absolute;
+  top: 1233px;
+  left: 263px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm-1);
+  color: var(--white);
+}
+.homePageHeaderChild {
+  position: absolute;
+  height: 153.77%;
   width: 100%;
   height: 771px;
   overflow: hidden;
@@ -230,4 +282,44 @@
   font-size: var(--components-large-size);
   color: var(--color-black);
   font-family: var(--font-ibm-plex-sans);
+}
+.div,
+.hotelPageChild {
+  position: absolute;
+  top: 58.43px;
+  left: 347.77px;
+  width: 30.22px;
+  height: 30.22px;
+  display: none;
+}
+.div {
+  top: 130.96px;
+  left: 0;
+  font-size: 10.07px;
+  letter-spacing: 1.01px;
+  line-height: 16.12px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 430.17px;
+  height: 24px;
+}
+.arrowLeftIcon {
+  position: absolute;
+  top: 62.46px;
+  left: 18.13px;
+  width: 33.24px;
+  height: 30.22px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hotelPage {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1433px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 16.12px;
+  color: var(--color-gray-400);
+  font-family: var(--font-be-vietnam-pro);
 }

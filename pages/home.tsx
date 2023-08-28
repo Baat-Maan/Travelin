@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   }, [router]);
 
   const onPackageTextClick = useCallback(() => {
-    router.push("/");
+    router.push("/send-parcel-home");
   }, [router]);
 
   const onImage8IconClick = useCallback(() => {
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
   }, [router]);
 
   const onImage7Click = useCallback(() => {
-    router.push("/");
+    router.push("/send-parcel-home");
   }, [router]);
 
   return (

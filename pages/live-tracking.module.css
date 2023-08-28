@@ -215,7 +215,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 428px;
   height: 91px;
 }
@@ -267,7 +267,7 @@
 }
 .liveTracking {
   position: relative;
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 100%;
   height: 782px;
   overflow: hidden;

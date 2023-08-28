@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import "antd/dist/antd.min.css";
 import { Slider } from "antd";
 import { useRouter } from "next/router";
-import styles from "./book-space.module.css";
+import styles from "./index.module.css";
 const BookSpace: NextPage = () => {
   const router = useRouter();
 

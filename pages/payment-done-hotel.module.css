@@ -356,7 +356,7 @@
 .groupParent {
   top: 193px;
   left: 0;
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 393px;
   height: 310px;
   font-size: var(--font-size-sm);
@@ -543,7 +543,7 @@
 .groupChild1 {
   top: 0;
   border-radius: var(--br-3xs);
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 257px;
   height: 258px;
 }
@@ -578,7 +578,7 @@
 }
 .paymentDoneHotel {
   position: relative;
-  background-color: var(--ink-06);
+  background-color: var(--white);
   width: 100%;
   height: 831px;
   overflow-y: auto;
